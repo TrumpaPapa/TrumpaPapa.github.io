@@ -1,2 +1,0 @@
-# TrumpaPapa.github.io
- worst
