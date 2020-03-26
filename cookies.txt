@@ -1,6 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-.bestlo.li	TRUE	/	FALSE	1999999999	__cfduid	d73ed30679ded5388f86cdacc0120e95b1585208713
-www.bestlo.li	TRUE	/	FALSE	1999999999	SameSite	Lax
-.google.com	TRUE	/	FALSE	1999999999	NID	201=zSjx_srICydYKWDIP_R_eZK_iSdhvza-NunvS_eoNEyf1nJBwUvNUq80GU5N__hGqt6f7iW69gRl7JOjKqfmUlTxrUMzNFgPkGpTtLqWn5R3dKlkKttiMoyHBFAVldLGcu3_eJNPfzlyOTNuw3FIfXQavXH87xlep2RSqZVhWyk
-
