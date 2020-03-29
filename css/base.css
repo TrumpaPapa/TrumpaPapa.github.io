@@ -324,6 +324,10 @@ video {
     height: auto;
 }
 
+.site-logo img {
+    max-width: 350%;
+    height: auto;
+}
 
 /* ------------------------------------------------------------------- 
  * ## Typography resets 

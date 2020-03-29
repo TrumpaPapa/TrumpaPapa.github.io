@@ -1246,7 +1246,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #39b54a;
+    color: #00FFFF;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1802,6 +1802,18 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-left: 6px;
 }
 
+.home-content h2 {
+    font-family: "montserrat-medium", sans-serif;
+    font-size: auto;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 2;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+    margin-left: 6px;
+    color: #00FFFF;
+    text-transform: uppercase;
+}
+
 .home-content h1 {
     font-family: "montserrat-medium", sans-serif;
     font-size: 6.3rem;
@@ -1821,7 +1833,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__buttons .btn {
-    width: 215px;
+    width: auto;
     border-color: #FFFFFF;
     color: #FFFFFF;
     margin: 1.5rem 1.5rem 0 0;
@@ -1859,8 +1871,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #39b54a;
-    border-right: 2px solid #39b54a;
+    border-bottom: 2px solid #00FFFF;
+    border-right: 2px solid #00FFFF;
     content: '';
     display: block;
     height: 8px;
@@ -1884,7 +1896,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #39b54a;
+    background-color: #00FFFF;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
@@ -2200,7 +2212,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #39b54a;
+    background-color: #00FFFF;
     color: #010507;
     position: relative;
 }
@@ -2500,7 +2512,7 @@ html.no-csstransitions .home-content__main {
 
 .s-works .intro-wrap {
     padding: 15rem 0 25.2rem;
-    background: #111111;
+    background: #00FFFF;
 }
 
 .works-content {
