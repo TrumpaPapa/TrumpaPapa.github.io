@@ -1472,7 +1472,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .header-nav {
     background: #0C0C0C;
-    color: rgba(255, 255, 255, 0.25);
+    color: rgba(0, 255, 255, 1.0);
     font-family: "montserrat-light", sans-serif;
     font-size: 1.3rem;
     line-height: 1.846;
@@ -1507,13 +1507,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav h3 {
     font-family: "montserrat-semibold", sans-serif;
-    font-size: 11px;
+    font-size: 6vw;
     line-height: 1.5;
     text-transform: uppercase;
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
-    margin-top: .9rem;
-    color: #39b54a;
+    margin-top: 0.9rem;
+    color: #00FFFF;
 }
 
 .header-nav p {
@@ -1529,7 +1529,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav__list {
     font-family: "montserrat-regular", sans-serif;
-    font-size: 1.8rem;
+    font-size: 7vw;
     margin: 3.6rem 0 3rem 0;
     padding: 0 0 1.8rem 0;
     list-style: none;
@@ -1651,7 +1651,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #39b54a;
+    color: #00FFFF;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1835,7 +1835,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content__buttons .btn {
     width: auto;
     border-color: #FFFFFF;
-    color: #FFFFFF;
+    color: #00FFFF;
     margin: 1.5rem 1.5rem 0 0;
     letter-spacing: .25rem;
     -webkit-transition: all 0.5s ease-in-out;
@@ -1956,7 +1956,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #39b54a;
+    color: #00FFFF;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
