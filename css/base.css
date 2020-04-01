@@ -327,6 +327,7 @@ video {
 .site-logo img {
     max-width: 35vw;
     height: auto;
+    margin-top: 3rem;
 }
 
 .bonus img {
