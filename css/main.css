@@ -392,6 +392,8 @@ dd {
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .video-container iframe,
@@ -1318,7 +1320,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-header.has-bottom-sep::before {
     content: "";
     display: inline-block;
-    height: 1px;
+    height: 3px;
     width: 550px;
     background-color: rgba(0, 0, 0, 0.1);
     position: absolute;
@@ -2212,14 +2214,14 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-about {
     padding-top: 16.2rem;
-    padding-bottom: 9rem;
+    padding-bottom: 0.1px;
     background-color: #00FFFF;
     color: #010507;
     position: relative;
 }
 
 .s-about .section-header.has-bottom-sep::before {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 1.00);
 }
 
 .about-desc {
@@ -2228,6 +2230,7 @@ html.no-csstransitions .home-content__main {
     text-align: center;
     max-width: 1024px;
 }
+
 
 
 /* ------------------------------------------------------------------- 
@@ -2526,7 +2529,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-works .intro-wrap {
-    padding: 15rem 0 25.2rem;
+    padding: 0rem 0 15rem;
     background: #00FFFF;
 }
 
@@ -2732,14 +2735,14 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
-    .s-works {
-        padding-bottom: 12rem;
+    /*.s-works {
+        padding-bottom: 0rem;
     }
     .s-works .intro-wrap {
-        padding: 12rem 0 25.2rem;
-    }
+        padding: 0rem 0 0rem;
+    }*/
     .works-content {
-        margin-top: -25.2rem;
+        margin-top: -15rem;
     }
     .masonry__brick {
         float: none;
@@ -3351,6 +3354,29 @@ html.no-csstransitions .home-content__main {
     }
 }
 
+/* ===================================================================
+ * # bonus
+ *
+ * ------------------------------------------------------------------- */
+.s-bonus {
+    padding-top: 12rem;
+    padding-bottom: 1rem;
+    background-color: #57bcb4;
+    color: #010507;
+    position: relative;
+}
+
+.s-bonus .section-header.has-bottom-sep::before {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.bonus-desc {
+    font-size: 2.4rem;
+    line-height: 1.75;
+    text-align: center;
+    max-width: 1024px;
+}
+
 
 
 /* ===================================================================
@@ -3358,12 +3384,13 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    padding: 9rem 0 6rem;
+    padding: 3rem 0 6rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
     line-height: 2;
     text-align: center;
     color: rgba(255, 255, 255, 0.3);
+    background-color: #57bcb4;
 }
 
 footer h4 {
