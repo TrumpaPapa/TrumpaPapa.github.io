@@ -1256,9 +1256,12 @@
     height: auto !important;
     margin: 0 auto !important;
     /*transform: translate3d(185px, 100px, 0px) scale(0.805524) !important;*/
-    transform: translate3d(0px, 0px, 0px) scale(1.00) !important;
+    transform: translate3d(-50%, -50%, 0px) scale(1.00) !important;
     transform-origin: center center !important;
     display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
 }
 
 
