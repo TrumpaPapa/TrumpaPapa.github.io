@@ -3517,9 +3517,9 @@ footer .row {
  * ## footer bottom
  * --------------------------------------------------------------- */
 .footer-bottom {
-    margin-top: 5.4rem;
+    margin-top: 1rem;
     text-align: center;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .footer-bottom .copyright span {
