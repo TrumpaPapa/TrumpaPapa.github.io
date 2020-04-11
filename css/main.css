@@ -871,7 +871,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .btn--stroke, button.btn--stroke {
-    background: transparent !important;
+    background: #00000030 !important;
     border: 0.2rem solid #00ffff;
     color: #00ffff;
 }
@@ -1242,11 +1242,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .subhead {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 1.7rem;
+    font-size: 5.0rem;
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #00ffff;
+    color: #000000;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1805,7 +1805,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content h2 {
     font-family: "montserrat-medium", sans-serif;
-    font-size: auto;
+    font-size: 5rem !important;
     color: rgba(255, 255, 255, 0.5);
     line-height: 2;
     margin-top: 0;
@@ -1861,7 +1861,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content__scroll a {
     font-family: "montserrat-semibold", sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
     color: #FFFFFF;
@@ -2223,8 +2223,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .about-desc {
-    font-size: 2.4rem;
-    line-height: 1.75;
+    font-size: 3.0rem;
+    line-height: 1.95;
     text-align: center;
     max-width: 1024px;
 }
@@ -2280,7 +2280,7 @@ html.no-csstransitions .home-content__main {
     font-family: "montserrat-semibold", sans-serif;
     margin-top: 1.8rem;
     color: #000000;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     line-height: 1.333;
     position: relative;
 }
@@ -2628,7 +2628,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__title {
     font-family: "montserrat-semibold", sans-serif;
-    font-size: 1.4rem;
+    font-size: 2rem;
     line-height: 1.286;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -2637,9 +2637,9 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__cat {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1.0);
     font-family: "montserrat-light", sans-serif;
-    font-size: 1.4rem;
+    font-size: 2rem;
     line-height: 1.714;
     margin-bottom: 0;
 }
@@ -3387,7 +3387,7 @@ footer {
     font-size: 15px;
     line-height: 2;
     text-align: center;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 1.0);
     background-color: #00dcdc;
 }
 
