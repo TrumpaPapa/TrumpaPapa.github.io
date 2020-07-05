@@ -90,7 +90,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-    color: #0087cc;
+    color: #00dcdc;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -502,7 +502,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #00ffff;
+    background: #00dcdc;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -545,7 +545,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #00ffff;
+    background-color: #00dcdc;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -772,7 +772,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #00ffff;
+    -webkit-text-fill-color: #00dcdc;
     transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -832,8 +832,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #00ffff;
-    border-color: #00ffff;
+    background: #00dcdc;
+    border-color: #00dcdc;
     color: #FFFFFF;
 }
 
@@ -847,8 +847,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #00ffff;
-    border-color: #00ffff;
+    background: #00dcdc;
+    border-color: #00dcdc;
 }
 
 
@@ -872,8 +872,8 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: #00000030 !important;
-    border: 0.2rem solid #00ffff;
-    color: #00ffff;
+    border: 0.2rem solid #00dcdc;
+    color: #00dcdc;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
@@ -1101,7 +1101,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #00ffff;
+    color: #00dcdc;
 }
 
 .stats-tabs li a em {
@@ -1420,7 +1420,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
-    background: #00ffff;
+    background: #00dcdc;
 }
 
 
@@ -1456,6 +1456,37 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-logo a {
+    display: block;
+    margin: 9px 0 0 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    width: 80px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* -------------------------------------------------------------------
+ * ## header banner
+ * ------------------------------------------------------------------- */
+.header-banner {
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 40px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 501;
+        animation-duration: 2s;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.header-banner a {
     display: block;
     margin: 9px 0 0 0;
     padding: 0;
@@ -1513,7 +1544,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     letter-spacing: .25rem;
     margin-bottom: 4.8rem;
     margin-top: 0.9rem;
-    color: #00ffff;
+    color: #00dcdc;
 }
 
 .header-nav p {
@@ -1652,7 +1683,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #00ffff;
+    color: #00dcdc;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1811,7 +1842,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-top: 0;
     margin-bottom: 1.2rem;
     margin-left: 6px;
-    color: #00ffff;
+    color: #00dcdc;
     text-transform: uppercase;
 }
 
@@ -1836,7 +1867,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content__buttons .btn {
     width: auto;
     border-color: #FFFFFF;
-    color: #00ffff;
+    color: #00dcdc;
     margin: 1.5rem 1.5rem 0 0;
     letter-spacing: .25rem;
     -webkit-transition: all 0.5s ease-in-out;
@@ -1872,8 +1903,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #00FFFF;
-    border-right: 2px solid #00ffff;
+    border-bottom: 2px solid #00dcdc;
+    border-right: 2px solid #00dcdc;
     content: '';
     display: block;
     height: 8px;
@@ -1897,7 +1928,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #00ffff;
+    background-color: #00dcdc;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
@@ -1912,8 +1943,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     list-style: none;
     margin: 0;
     position: absolute;
-    top: 50%;
-    right: 5.4rem;
+    top: 47%;
+    right: 10rem;
     -webkit-transform: translate3d(0, -50%, 0);
     -ms-transform: translate3d(0, -50%, 0);
     transform: translate3d(0, -50%, 0);
@@ -1957,9 +1988,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #00ffff;
+    color: #00dcdc;
+    top: 20%;
     right: 4.5rem;
-    font-size: 1.3rem;
+    font-size: 2rem;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: scale(0);
@@ -2211,7 +2243,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    padding-top: 16.2rem;
+    padding-top: 8.0rem;
     padding-bottom: 0.1px;
     background-color: #00dcdc;
     color: #010507;
@@ -2319,7 +2351,7 @@ html.no-csstransitions .home-content__main {
         border: none;
     }
     .stats__col:nth-child(2n+1) {
-        border-right: 1px solid rgba(255, 255, 255, 0.25);
+        border-right: 1px solid rgba(255, 255, 255, 1.00);
     }
 }
 
@@ -2363,7 +2395,7 @@ html.no-csstransitions .home-content__main {
         display: block;
         height: 1px;
         width: 250px;
-        background-color: rgba(255, 255, 255, 0.25);
+        background-color: rgba(255, 255, 255, 1.00);
         position: absolute;
         bottom: 0;
         left: 50%;
@@ -2433,7 +2465,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #00ffff;
+    color: #00dcdc;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -2561,7 +2593,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__thumb img {
-    vertical-align: bottom;
+    vertical-align: center;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -3002,7 +3034,7 @@ html.no-csstransitions .home-content__main {
     padding: 0 2rem;
     margin: 0;
     color: #FFFFFF;
-    background: #00ffff;
+    background: #00dcdc;
 }
 
 .s-contact .form-field label::after {
@@ -3013,14 +3045,14 @@ html.no-csstransitions .home-content__main {
     margin-top: -6px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
-    border-right: 5px solid #00ffff;
+    border-right: 5px solid #00dcdc;
 }
 
 .contact__line {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #00ffff;
+    background-color: #00dcdc;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3047,7 +3079,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #00ffff;
+    color: #00dcdc;
 }
 
 .contact-content input[type="email"],
@@ -3074,7 +3106,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #00ffff;
+    border-bottom: 1px solid #00dcdc;
 }
 
 .contact-content button,
@@ -3165,7 +3197,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-social li a:hover, 
 .contact-social li a:focus {
-    color: #00ffff;
+    color: #00dcdc;
 }
 
 .contact-social li:last-child {
@@ -3188,7 +3220,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-    color: #00ffff;
+    color: #00dcdc;
 }
 
 .message-warning i, .message-success i {
@@ -3404,7 +3436,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #00ffff;
+    color: #00dcdc;
 }
 
 footer .row {
@@ -3496,8 +3528,8 @@ footer .row {
     top: 0;
     right: 0;
     color: #FFFFFF;
-    background: #00ffff;
-    border-color: #00ffff;
+    background: #00dcdc;
+    border-color: #00dcdc;
     padding: 0 20px;
 }
 

@@ -330,12 +330,69 @@ video {
     margin-right: 5rem;
 }
 
+.site-banner {
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    z-index: 500;
+}
+
+.site-banner img {
+    position: absolute;
+    max-width: 25vw;
+    top: 58%;
+    left: 53%;
+    animation-duration: 2s;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.intro-logo img {
+    border-radius: 50%;
+}
+
+.bonus-logo img {
+    border-radius: 25%;
+}
+
+.home-social img {
+    border-radius: 20%;
+}
+
+.header-nav__social img {
+    max-width: 25px;
+    border-radius: 20%;
+}
+
 .bonus img {
     max-width: 100%;
     height: auto;
     margin-top: 12rem;
 }
 
+
+/* ------------------------------------------------------------------- 
+ * ## Scrollbar
+ * ------------------------------------------------------------------- */
+html {
+  --scrollbarBG: #000000;
+  --thumbBG: #00dcdc;
+}
+body::-webkit-scrollbar {
+  width: 17px;
+}
+body {
+  scrollbar-width: auto;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+
+  border: 2px solid var(--scrollbarBG);
+}
 
 
 /* ------------------------------------------------------------------- 

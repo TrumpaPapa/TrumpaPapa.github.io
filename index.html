@@ -18,20 +18,36 @@
     <!-- mobile specific metas
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#00ffff"> <!-- Chrome, Firefox OS and Opera -->
-    <meta name="msapplication-navbutton-color" content="#00ffff"> <!-- Windows Phone -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#00ffff"> <!-- iOS Safari -->
+    <meta name="theme-color" content="#00dcdc"> <!-- Chrome, Firefox OS and Opera -->
+    <meta name="msapplication-navbutton-color" content="#00dcdc"> <!-- Windows Phone -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#00dcdc"> <!-- iOS Safari -->
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
 
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
     <!-- script
     ================================================== -->
-    <script src="js/lazysizes.min.js" async></script>
+    <script src="js/lazysizes.min.js"></script>
+    <!-- <script src="js/picturefill.min.js"></script> -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
+
 
     <!-- favicons
     ================================================== -->
@@ -41,6 +57,10 @@
 </head>
 
 <body id="top">
+
+ <!--  <div class="site-banner">
+        <img src="images/banner.png" alt="Banner">
+    </div> -->
 
     <!-- header
     ================================================== -->
@@ -70,19 +90,46 @@
 
                 <ul class="header-nav__social">
                     <li>
-                        <a href="#" aria-label="Find more at Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://seiga.nicovideo.jp/comic/32863" aria-label="Buy from Nico Nico Seiga"><img src="images/niconicoseiga.ico" alt="Icon" aria-hidden="false"></a>
                     </li>
                     <li>
-                        <a href="#" aria-label="Find more at Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="https://amzn.to/2YA9iZP" aria-label="Buy from Amazon.co.jp"><img src="images/amazon.ico" alt="Icon" aria-hidden="false"></a>
                     </li>
                     <li>
-                        <a href="#" aria-label="Find more at Instagram"><i class="fa fa-instagram"></i></a>
+                        <a href="https://bookwalker.jp/series/166038/" aria-label="Buy from Bookwalker"><img src="images/bookwalker.ico" alt="Icon" aria-hidden="false"></a>
                     </li>
                     <li>
-                        <a href="#" aria-label="Find more at Behance"><i class="fa fa-behance"></i></a>
+                        <a href="https://ebookjapan.yahoo.co.jp/books/462979" aria-label="Buy from eBookJapan"><img src="images/ebookjapan.ico" alt="Icon" aria-hidden="false"></a>
                     </li>
                     <li>
-                        <a href="#" aria-label="Find more at Dribble"><i class="fa fa-dribbble"></i></a>
+                        <a href="https://grinp.booth.pm/" aria-label="Find more at Booth.pm"><img src="images/booth.ico" alt="Icon" aria-hidden="false"></a>
+                    </li>
+                    <li>
+                        <a href="https://ecs.toranoana.jp/tora/ec/cot/circle/2UPA116P847KdC6Rd687/all/?coterie_genre_name1_facet=%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB" aria-label="Find more at Toranoana"><img src="images/toranoana.ico" alt="Icon" aria-hidden="false"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.melonbooks.co.jp/search/search.php?mode=search&search_disp=&category_id=0&text_type=&text_type=all&name=%E3%81%8A%E5%85%84%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E3%81%8A%E3%81%97%E3%81%BE%E3%81%84%EF%BC%81" aria-label="Find more at Melon"><img src="images/melon.ico" alt="Icon" aria-hidden="false"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.dlsite.com/home/fsr/=/keyword/%E3%81%8A%E5%85%84%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E3%81%8A%E3%81%97%E3%81%BE%E3%81%84%EF%BC%81+SRI0000018394/order/release_d/from/maker_profile.series" aria-label="Find more at DLSite"><img src="images/dlsite.ico" alt="Icon" aria-hidden="false"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.dmm.co.jp/dc/doujin/-/list/=/article=series/id=49175/" aria-label="Buy from Fanza"><img src="images/fanza.ico" alt="Icon" aria-hidden="false"></a>
+                    </li>
+                    <li>
+                        <a href="http://grin.oops.jp/" aria-label="Find more at GRINP's official site"><img src="images/GRINP.png" alt="Icon" aria-hidden="false"></a>
+                    </li>
+                    <li>
+                        <a href="https://grinp.fanbox.cc/" aria-label="Subscribe to the author's pixivFANBOX"><img src="images/Pixiv Fanbox.ico" alt="Icon" aria-hidden="false"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/nekotou" aria-label="Find more at the author's Twitter"><img src="images/twitter.ico" alt="Icon" aria-hidden="false"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.pixiv.net/user/159912/series/12" aria-label="Read at Pixiv"><img src="images/pixiv.ico" alt="Icon" aria-hidden="false"></a>
+                    </li>
+                    <li>
+                        <a href="https://mangadex.org/title/22615/onii-chan-is-done-for/" aria-label="Read at Mangadex"><img src="images/mangadex.png" alt="Icon" aria-hidden="false"></a>
                     </li>
                 </ul>
 
@@ -100,7 +147,8 @@
     ================================================== -->
     <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-alt="Banner" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
 
-        <div class="overlay"></div>
+        <div class="overlay">
+        </div>
         <div class="shadow-overlay"></div>
 
         <div class="home-content">
@@ -143,19 +191,46 @@
 
         <ul class="home-social">
             <li>
-                <a href="#0" aria-label="Find more at Facebook"><i class="fa fa-facebook" aria-hidden="false"></i><span>Facebook</span></a>
+                <a href="https://seiga.nicovideo.jp/comic/32863" aria-label="Buy from Nico Nico Seiga"><img src="images/niconicoseiga.ico" alt="Icon" aria-hidden="false"><span>NicoNicoSeiga</span></a>
             </li>
             <li>
-                <a href="#0" aria-label="Find more at Twitter"><i class="fa fa-twitter" aria-hidden="false"></i><span>Twitter</span></a>
+                <a href="https://amzn.to/2YA9iZP" aria-label="Buy from Amazon.co.jp"><img src="images/amazon.ico" alt="Icon" aria-hidden="false"><span>Amazon.co.jp</span></a>
             </li>
             <li>
-                <a href="#0" aria-label="Find more at Instagram"><i class="fa fa-instagram" aria-hidden="false"></i><span>Instagram</span></a>
+                <a href="https://bookwalker.jp/series/166038/" aria-label="Buy from Bookwalker"><img src="images/bookwalker.ico" alt="Icon" aria-hidden="false"><span>Bookwalker</span></a>
             </li>
             <li>
-                <a href="#0" aria-label="Find more at Behance"><i class="fa fa-behance" aria-hidden="false"></i><span>Behance</span></a>
+                <a href="https://ebookjapan.yahoo.co.jp/books/462979" aria-label="Buy from eBookJapan"><img src="images/ebookjapan.ico" alt="Icon" aria-hidden="false"><span>eBookJapan</span></a>
             </li>
             <li>
-                <a href="#0" aria-label="Find more at Dribbbler"><i class="fa fa-dribbble" aria-hidden="false"></i><span>Dribbble</span></a>
+                <a href="https://grinp.booth.pm/" aria-label="Find more at Booth.pm"><img src="images/booth.ico" alt="Icon" aria-hidden="false"><span>Booth.pm</span></a>
+            </li>
+            <li>
+                <a href="https://ecs.toranoana.jp/tora/ec/cot/circle/2UPA116P847KdC6Rd687/all/?coterie_genre_name1_facet=%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB" aria-label="Find more at Toranoana"><img src="images/toranoana.ico" alt="Icon" aria-hidden="false"><span>Toranoana</span></a>
+            </li>
+            <li>
+                <a href="https://www.melonbooks.co.jp/search/search.php?mode=search&search_disp=&category_id=0&text_type=&text_type=all&name=%E3%81%8A%E5%85%84%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E3%81%8A%E3%81%97%E3%81%BE%E3%81%84%EF%BC%81" aria-label="Find more at Melon"><img src="images/melon.ico" alt="Icon" aria-hidden="false"><span>Melon</span></a>
+            </li>
+            <li>
+                <a href="https://www.dlsite.com/home/fsr/=/keyword/%E3%81%8A%E5%85%84%E3%81%A1%E3%82%83%E3%82%93%E3%81%AF%E3%81%8A%E3%81%97%E3%81%BE%E3%81%84%EF%BC%81+SRI0000018394/order/release_d/from/maker_profile.series" aria-label="Find more at DLSite"><img src="images/dlsite.ico" alt="Icon" aria-hidden="false"><span>DLSite</span></a>
+            </li>
+            <li>
+                <a href="https://www.dmm.co.jp/dc/doujin/-/list/=/article=series/id=49175/" aria-label="Buy from Fanza"><img src="images/fanza.ico" alt="Icon" aria-hidden="false"><span>Fanza</span></a>
+            </li>
+            <li>
+                <a href="http://grin.oops.jp/" aria-label="Find more at GRINP's official site"><img src="images/GRINP.png" alt="Icon" aria-hidden="false"><span>GRINP</span></a>
+            </li>
+            <li>
+                <a href="https://grinp.fanbox.cc/" aria-label="Subscribe to the author's pixivFANBOX"><img src="images/Pixiv Fanbox.ico" alt="Icon" aria-hidden="false"><span>pixivFANBOX</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/nekotou" aria-label="Find more at the author's Twitter"><img src="images/twitter.ico" alt="Icon" aria-hidden="false"><span>Twitter</span></a>
+            </li>
+            <li>
+                <a href="https://www.pixiv.net/user/159912/series/12" aria-label="Read at Pixiv"><img src="images/pixiv.ico" alt="Icon" aria-hidden="false"><span>Pixiv</span></a>
+            </li>
+            <li>
+                <a href="https://mangadex.org/title/22615/onii-chan-is-done-for/" aria-label="Read at Mangadex"><img src="images/mangadex.png" alt="Icon" aria-hidden="false"><span>Mangadex</span></a>
             </li>
         </ul>
         <!-- end home-social -->
@@ -163,12 +238,12 @@
     </section> <!-- end s-home -->
     <!-- about
     ================================================== -->
-    <section id='about' class="s-about">
+    <section id="about" class="s-about">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <a class="intro-logo" href="index.html">
-                    <img data-src="images/logo-2.jpg" alt="Icon" class="lazyload">
+                <a class="intro-logo">
+                    <img class="lazyload" data-src="images/logo-2.jpg" alt="Icon">
                 </a>
                 <h3 class="subhead subhead--dark">Hello!</h3>
                 <h3 class="display-1 display-1--light">I'm Mahiro Oyama</h3>
@@ -190,7 +265,7 @@
                 <h5>Manga Volumes</h5>
             </div>
             <div class="col+block stats__col">
-                <div class="stats__count">37</div>
+                <div class="stats__count">41</div>
                 <div class="stats__character">+</div>
                 <h5>Manga Chapters</h5>
             </div>
@@ -199,8 +274,8 @@
         <div class="about__line"></div>
 
     </section> <!-- end s-about -->
-    <!-- services
-    ================================================== -->
+
+
     <!-- works
     ================================================== -->
     <section id='works' class="s-works">
@@ -225,8 +300,8 @@
 
                             <div class="item-folio__thumb">
                                 <a href="images/portfolio/Yaaay@2x.jpg" class="thumb-link" title="Yaaay" data-size="1050x700">
-                                    <img data-image-src="images/portfolio/Yaaay.jpg"
-                                         srcset="images/portfolio/Yaaay.jpg 1x, images/portfolio/Yaaay@2x.jpg 2x" alt="Mahiro is happy" class="lazyload" >
+                                    <img class="lazyload" src="images/portfolio/Yaaay.jpg"
+                                         srcset="images/portfolio/Yaaay.jpg 1x, images/portfolio/Yaaay@2x.jpg 2x" alt="Mahiro is happy">
                                 </a>
                             </div>
 
@@ -255,7 +330,7 @@
 
                             <div class="item-folio__thumb">
                                 <a href="images/portfolio/Walking@2x.jpg" class="thumb-link" title="Walking" data-size="1050x700">
-                                    <img class="lazyload" data-image-src="images/portfolio/Walking.jpg"
+                                    <img class="lazyload" src="images/portfolio/Walking.jpg"
                                          srcset="images/portfolio/Walking.jpg 1x, images/portfolio/Walking@2x.jpg 2x" alt="Mahiro is seen taking a lovely stroll">
                                 </a>
                             </div>
@@ -285,7 +360,7 @@
 
                             <div class="item-folio__thumb">
                                 <a href="images/portfolio/Smug@2x.jpg" class="thumb-link" title="Smug" data-size="1050x700">
-                                    <img class="lazyload" data-image-src="images/portfolio/Smug.jpg"
+                                    <img class="lazyload" src="images/portfolio/Smug.jpg"
                                          srcset="images/portfolio/Smug.jpg 1x, images/portfolio/Smug@2x.jpg 2x" alt="Mahiro is gleeming with smugness">
                                 </a>
                             </div>
@@ -1664,19 +1739,21 @@
             </div> <!-- end col-full -->
         </div> <!-- end works-content -->
     </section> <!-- end s-works -->
+
+
     <!-- bonus
     ================================================== -->
-    <section id='bonus' class="s-bonus">
+ <!--  <section id='bonus' class="s-bonus">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
+            <div class="col-full bonus-logo">
                 <a class="about" href="index.html">
-                    <img class="lazyload" data-src="images/logo-3.jpg" alt="Icon">
+                    <img class="lazyload" src="images/logo-3.jpg" alt="Icon">
                 </a>
                 <h3 class="subhead subhead--light">Hey!</h3>
                 <h3 class="display-1 display-1--light">Here's some cool, bonus stuff</h3>
             </div>
-        </div> <!-- end section-header -->
+        </div> <!-- end section-header 
 
         <div class="row bonus-desc" data-aos="fade-up">
             <div class="col-full">
@@ -1684,26 +1761,23 @@
                     Here's a drama cd
                 </h3>
             </div>
-        </div> <!-- end bonus-desc -->
+        </div> <!-- end bonus-desc 
 
         <div class="video-container">
-            <iframe class="lazyload" data-src="https://www.youtube-nocookie.com/embed/HHFOCxJnrsY" title="Onii-chan is Done For Drama CD 2 - Koko kara(from now on)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="lazyload" src="https://www.youtube-nocookie.com/embed/HHFOCxJnrsY" title="Onii-chan is Done For Drama CD 2 - Koko kara(from now on)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
     </section> <!-- end s-bonus -->
-    <!-- clients
-    ================================================== -->
-    <!-- contact
-    ================================================== -->
+
     <!-- footer
     ================================================== -->
-    <footer>
+ <!--   <footer>
 
         <div class="row footer-bottom">
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>Website designed by The Real Mahiro</span>
+                    <span>2020</span>
                 </div>
 
                 <div class="go-top">
@@ -1711,7 +1785,7 @@
                 </div>
             </div>
 
-        </div> <!-- end footer-bottom -->
+        </div> <!-- end footer-bottom 
 
     </footer> <!-- end footer -->
     <!-- photoswipe background
@@ -1749,26 +1823,13 @@
         </div>
 
     </div> <!-- end photoSwipe background -->
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-            <div class="line-scale-pulse-out">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-    </div>
-
-
     <!-- Java Script
     ================================================== -->
-    <script src="js/jquery-3.5.0.min.js"></script>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
 
 </body>
 
