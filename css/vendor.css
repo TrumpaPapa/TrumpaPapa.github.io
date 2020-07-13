@@ -1387,7 +1387,7 @@ over element that should close gallery
 
 .pswp__button, .pswp__button--arrow--left:before, .pswp__button--arrow--right:before {
     background: url(../images/photoswipe/default-skin.png) 0 0 no-repeat;
-    background-size: 264px 88px;
+    background-size: 291px 88px;
     width: 44px;
     height: 44px;
 }
@@ -1408,6 +1408,13 @@ over element that should close gallery
 
 .pswp__button--share {
     background-position: -44px -44px;
+}
+
+.pswp__button--source {
+    background-position: -190px 0px;
+    width: 88px;
+    float: left;
+    left: 50%;
 }
 
 .pswp__button--fs {
