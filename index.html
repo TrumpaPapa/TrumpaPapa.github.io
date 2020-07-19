@@ -26,27 +26,12 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.min.css">
 
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-            <div class="line-scale-pulse-out">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-    </div>
 
     <!-- script
     ================================================== -->
-    <script src="js/lazysizes.min.js"></script> 
-    <!-- <script src="js/picturefill.min.js"></script> -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+
 
 
     <!-- favicons
@@ -58,13 +43,16 @@
 
 <body id="top">
 
- <!--  <div class="site-banner">
-        <img src="images/banner.png" alt="Banner">
-    </div> -->
-
+    <!--  <div class="site-banner">
+           <img src="images/banner.png" alt="Banner">
+       </div> -->
     <!-- header
     ================================================== -->
     <header class="s-header">
+
+        <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+        </div>
 
         <div class="header-logo">
             <a class="site-logo" href="index.html">
@@ -156,7 +144,7 @@
 
         <div class="home-content">
 
-            <div class="row home-content__main">
+            <div class="row home-content__main wow animate__animated animate__fadeInUp">
 
                 <h2>Welcome!</h2>
 
@@ -174,9 +162,9 @@
                     <a href="#works" class="smoothscroll btn btn--stroke">
                         Cute Photos!?
                     </a>
-                   <!-- <a href="#bonus" class="smoothscroll btn btn--stroke">
-                        Bonus Material!
-                    </a> -->
+                    <!-- <a href="#bonus" class="smoothscroll btn btn--stroke">
+                         Bonus Material!
+                     </a> -->
                 </div>
 
             </div>
@@ -246,20 +234,20 @@
     ================================================== -->
     <section id="about" class="s-about">
 
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="row section-header has-bottom-sep wow animate__animated animate__fadeInUp">
             <div class="col-full">
                 <a class="intro-logo">
-                    <img class="lazyload" data-src="images/logo-2.jpg" alt="Icon">
+                    <img class="lazyload" data-src="images/logo-2.png" alt="Icon">
                 </a>
                 <h3 class="subhead subhead--dark">Hello!</h3>
                 <h3 class="display-1 display-1--light">I'm Mahiro Oyama</h3>
             </div>
         </div> <!-- end section-header -->
 
-        <div class="row about-desc" data-aos="fade-up">
+        <div class="row about-desc wow animate__animated animate__fadeInUp">
             <div class="col-full">
                 <p>
-                    I was a withdrawn young man for as long as I could remember, unable to make anything of myself. After an unsuccessful career of being an In-Home Security Guard, I was hopeless. Then, one fateful day, my younger sister slipped a mysterious drug into my food, unbeknownst to me. The next thing I knew, I woke up as a cute, little girl, henceforth beginning my new life.
+                    I was a normal guy for most of my life, but eventually got bored with school and dropped out. Then I stayed in my room for two years, playing games and all that fun stuff. That was, until one morning when I woke up as a... girl? Yeah, it seems my sister slipped something into my food, but on the bright side, I get to have some fun in the meantime!
                 </p>
             </div>
         </div> <!-- end about-desc -->
@@ -281,14 +269,13 @@
 
     </section> <!-- end s-about -->
 
-
     <!-- works
     ================================================== -->
     <section id='works' class="s-works">
 
         <div class="intro-wrap">
 
-            <div class="row section-header" data-aos="fade-up">
+            <div class="row section-header wow animate__animated animate__fadeInUp">
                 <div class="col-full">
                     <h3 class="display-2 display-2--dark">Photos</h3>
                     <h3 class="display-2 display-2--light">Mahiro Oyama is super cute, so check out some of her photos</h3>
@@ -301,1477 +288,7 @@
             <div class="col-full masonry-wrap">
                 <div class="masonry">
 
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Yaaay@2x.jpg" class="thumb-link" title="Yaaay" data-size="1050x700">
-                                    <img src="images/portfolio/Yaaay.jpg"
-                                         srcset="images/portfolio/Yaaay.jpg 1x, images/portfolio/Yaaay@2x.jpg 2x" alt="Mahiro is happy">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Yaaay
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is happy
-                                </p>
-                            </div>
-
-                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is happy</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Walking@2x.jpg" class="thumb-link" title="Walking" data-size="1050x700">
-                                    <img src="images/portfolio/Walking.jpg"
-                                         srcset="images/portfolio/Walking.jpg 1x, images/portfolio/Walking@2x.jpg 2x" alt="Mahiro is seen taking a lovely stroll">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Walking
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is seen taking a lovely stroll
-                                </p>
-                            </div>
-
-                            <a href="https://mangadex.org/chapter/622923/13" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is seen taking a lovely stroll</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Smug@2x.jpg" class="thumb-link" title="Smug" data-size="1050x700">
-                                    <img src="images/portfolio/Smug.jpg"
-                                         srcset="images/portfolio/Smug.jpg 1x, images/portfolio/Smug@2x.jpg 2x" alt="Mahiro is gleeming with smugness">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Smug
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is gleeming with smugness
-                                </p>
-                            </div>
-
-                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is gleeming with smugness</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Meoooow@2x.jpg" class="thumb-link" title="Meoooow" data-size="1050x700">
-                                    <img src="images/portfolio/Meoooow.jpg"
-                                         srcset="images/portfolio/Meoooow.jpg 1x, images/portfolio/Meoooow@2x.jpg 2x" alt="Mahiro is a kitty cat">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Meoooow
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is a kitty cat
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/68985613" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is a kitty cat</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Super_Smug@2x.jpg" class="thumb-link" title="Super Smug" data-size="1050x700">
-                                    <img src="images/portfolio/Super_Smug.jpg"
-                                         srcset="images/portfolio/Super_Smug.jpg 1x, images/portfolio/Super_Smug@2x.jpg 2x" alt="Mahiro is radiating with concentrated smugness">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Super Smug
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is radiating with concentrated smugness
-                                </p>
-                            </div>
-
-                            <a href="https://grinp.fanbox.cc/posts/849800" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is radiating with concentrated smugness</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Pouty@2x.jpg" class="thumb-link" title="Pouty" data-size="1050x700">
-                                    <img src="images/portfolio/Pouty.jpg"
-                                         srcset="images/portfolio/Pouty.jpg 1x, images/portfolio/Pouty@2x.jpg 2x" alt="Mahiro is cutely being angry">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Pouty
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is cutely being angry
-                                </p>
-                            </div>
-
-                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is cutely being angry</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Going_Home@2x.jpg" class="thumb-link" title="Going Home" data-size="1050x700">
-                                    <img src="images/portfolio/Going_Home.jpg"
-                                         srcset="images/portfolio/Going_Home.jpg 1x, images/portfolio/Going_Home@2x.jpg 2x" alt="Mahiro thinks it's time to go home">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Going Home
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro thinks it's time to go home
-                                </p>
-                            </div>
-
-                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro thinks it's time to go home</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Mornin'...@2x.jpg" class="thumb-link" title="Mornin'..." data-size="1050x700">
-                                    <img src="images/portfolio/Mornin'....jpg"
-                                         srcset="images/portfolio/Mornin'....jpg 1x, images/portfolio/Mornin'...@2x.jpg 2x" alt="Mahiro just awoke from her slumber">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Mornin'...
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro just awoke from her slumber
-                                </p>
-                            </div>
-
-                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro just awoke from her slumber</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Pondering@2x.jpg" class="thumb-link" title="Pondering" data-size="1050x700">
-                                    <img src="images/portfolio/Pondering.jpg"
-                                         srcset="images/portfolio/Pondering.jpg 1x, images/portfolio/Pondering@2x.jpg 2x" alt="Mahiro is pondering about cute things">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Pondering
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is pondering about cute things
-                                </p>
-                            </div>
-
-                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is pondering about cute things</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/So_cruel!@2x.jpg" class="thumb-link" title="So cruel!" data-size="1050x700">
-                                    <img src="images/portfolio/So_cruel!.jpg"
-                                         srcset="images/portfolio/So_cruel!.jpg 1x, images/portfolio/So_cruel!@2x.jpg 2x" alt="Mahiro is agonizing over the cruelty of life">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    So cruel!
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is agonizing over the cruelty of life
-                                </p>
-                            </div>
-
-                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is agonizing over the cruelty of life</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Surprised@2x.jpg" class="thumb-link" title="Surprised" data-size="1050x700">
-                                    <img src="images/portfolio/Surprised.jpg"
-                                         srcset="images/portfolio/Surprised.jpg 1x, images/portfolio/Surprised@2x.jpg 2x" alt="Mahiro is suprisingly suprised by something suprising">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Surprised
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is suprisingly suprised by something suprising
-                                </p>
-                            </div>
-
-                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is suprisingly suprised by something suprising</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Anxious@2x.jpg" class="thumb-link" title="Anxious" data-size="1050x700">
-                                    <img src="images/portfolio/Anxious.jpg"
-                                         srcset="images/portfolio/Anxious.jpg 1x, images/portfolio/Anxious@2x.jpg 2x" alt="Mahiro is anxiously anxious about something anxious">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Anxious
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is anxiously anxious about something anxious
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/76268033" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is anxiously anxious about something anxious</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Becoming_ladylike@2x.jpg" class="thumb-link" title="Becoming ladylike" data-size="1050x700">
-                                    <img src="images/portfolio/Becoming_ladylike.jpg"
-                                         srcset="images/portfolio/Becoming_ladylike.jpg 1x, images/portfolio/Becoming_ladylike@2x.jpg 2x" alt="Mahiro is improving her ladylike mannerisms">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Becoming ladylike
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is improving her ladylike mannerisms
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/79696209" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is improving her ladylike mannerisms</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Bliss@2x.jpg" class="thumb-link" title="Bliss" data-size="1050x700">
-                                    <img src="images/portfolio/Bliss.jpg"
-                                         srcset="images/portfolio/Bliss.jpg 1x, images/portfolio/Bliss@2x.jpg 2x" alt="Mahiro is swimming in bliss">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Bliss
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is swimming in bliss
-                                </p>
-                            </div>
-
-                            <a href="https://grinp.fanbox.cc/posts/62533" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is swimming in bliss</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Blushing@2x.jpg" class="thumb-link" title="Blushing" data-size="1050x700">
-                                    <img src="images/portfolio/Blushing.jpg"
-                                         srcset="images/portfolio/Blushing.jpg 1x, images/portfolio/Blushing@2x.jpg 2x" alt="Mahiro is cutely blushing out of embarrassment">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Blushing
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is cutely blushing out of embarrassment
-                                </p>
-                            </div>
-
-                            <a href="https://twitter.com/nekotou/status/1244175400348966912/photo/1" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is cutely blushing out of embarrassment</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Doing_hair@2x.jpg" class="thumb-link" title="Doing hair" data-size="1050x700">
-                                    <img src="images/portfolio/Doing_hair.jpg"
-                                         srcset="images/portfolio/Doing_hair.jpg 1x, images/portfolio/Doing_hair@2x.jpg 2x" alt="Mahiro is getting her hair done by a friend">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Doing hair
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is getting her hair done by a friend
-                                </p>
-                            </div>
-
-                            <a href="https://grinp.fanbox.cc/posts/706947" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is getting her hair done by a friend</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Cat_in_the_town@2x.jpg" class="thumb-link" title="Cat in the town" data-size="1050x700">
-                                    <img src="images/portfolio/Cat_in_the_town.jpg"
-                                         srcset="images/portfolio/Cat_in_the_town.jpg 1x, images/portfolio/Cat_in_the_town@2x.jpg 2x" alt="Mahiro the cat is out in the town">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Cat in the town
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro the cat is out in the town
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/73981839" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro the cat is out in the town</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Cat_pajamas@2x.jpg" class="thumb-link" title="Cat pajamas" data-size="1050x700">
-                                    <img src="images/portfolio/Cat_pajamas.jpg"
-                                         srcset="images/portfolio/Cat_pajamas.jpg 1x, images/portfolio/Cat_pajamas@2x.jpg 2x" alt="Mahiro is wearing cute cat pajamas">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Cat pajamas
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is wearing cute cat pajamas
-                                </p>
-                            </div>
-
-                            <a href="https://grinp.stores.jp/items/5b2e707b50bbc327bd001eb4" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is wearing cute cat pajamas</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Vintage@2x.jpg" class="thumb-link" title="Vintage" data-size="1050x700">
-                                    <img src="images/portfolio/Vintage.jpg"
-                                         srcset="images/portfolio/Vintage.jpg 1x, images/portfolio/Vintage@2x.jpg 2x" alt="Mahiro is looking pretty vintage">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Vintage
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is looking pretty vintage
-                                </p>
-                            </div>
-
-                            <a href="https://www.anime-japan.jp/img/main/img-aniran-03-02.jpg" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is looking pretty vintage</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Depressed@2x.jpg" class="thumb-link" title="Depressed" data-size="1050x700">
-                                    <img src="images/portfolio/Depressed.jpg"
-                                         srcset="images/portfolio/Depressed.jpg 1x, images/portfolio/Depressed@2x.jpg 2x" alt="Mahiro is down in the blues">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Depressed
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is down in the blues
-                                </p>
-                            </div>
-
-                            <a href="https://twitter.com/nekotou/status/1244175400348966912/photo/1" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is down in the blues</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Dresses@2x.jpg" class="thumb-link" title="Dresses" data-size="1050x700">
-                                    <img src="images/portfolio/Dresses.jpg"
-                                         srcset="images/portfolio/Dresses.jpg 1x, images/portfolio/Dresses@2x.jpg 2x" alt="Mahiro is dressing up with a friend">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Dresses
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is dressing up with a friend
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/75496047" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is dressing up with a friend</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Extra_Volume_2_Drama_CD@2x.jpg" class="thumb-link" title="Extra Volume 2 Drama CD" data-size="1050x700">
-                                    <img src="images/portfolio/Extra_Volume_2_Drama_CD.jpg"
-                                         srcset="images/portfolio/Extra_Volume_2_Drama_CD.jpg 1x, images/portfolio/Extra_Volume_2_Drama_CD@2x.jpg 2x" alt="Mahiro is seen on the front of an Extra Volume 2 Drama CD">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Extra Volume 2 Drama CD
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is seen on the front of an Extra Volume 2 Drama CD
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/78345045" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is seen on the front of an Extra Volume 2 Drama CD</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Fancy_clothes@2x.jpg" class="thumb-link" title="Fancy clothes" data-size="1050x700">
-                                    <img src="images/portfolio/Fancy_clothes.jpg"
-                                         srcset="images/portfolio/Fancy_clothes.jpg 1x, images/portfolio/Fancy_clothes@2x.jpg 2x" alt="Mahiro is trying out lots of cute clothes">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Fancy clothes
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is trying out lots of cute clothes
-                                </p>
-                            </div>
-
-                            <a href="https://grinp.fanbox.cc/posts/153260" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is trying out lots of cute clothes</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Fancy_hat@2x.jpg" class="thumb-link" title="Fancy hat" data-size="1050x700">
-                                    <img src="images/portfolio/Fancy_hat.jpg"
-                                         srcset="images/portfolio/Fancy_hat.jpg 1x, images/portfolio/Fancy_hat@2x.jpg 2x" alt="Mahiro is seen wearing a fancy hat">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Fancy hat
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is seen wearing a fancy hat
-                                </p>
-                            </div>
-
-                            <a href="https://grinp.stores.jp/items/5af66a1e5f786658db001253" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is seen wearing a fancy hat</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Yes!@2x.jpg" class="thumb-link" title="Yes!" data-size="1050x700">
-                                    <img src="images/portfolio/Yes!.jpg"
-                                         srcset="images/portfolio/Yes!.jpg 1x, images/portfolio/Yes!@2x.jpg 2x" alt="Mahiro is sure of something">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Yes!
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is sure of something
-                                </p>
-                            </div>
-
-                            <a href="https://store.line.me/stickershop/product/11419726/" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Yes!</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Hairdo@2x.jpg" class="thumb-link" title="Hairdo" data-size="1050x700">
-                                    <img src="images/portfolio/Hairdo.jpg"
-                                         srcset="images/portfolio/Hairdo.jpg 1x, images/portfolio/Hairdo@2x.jpg 2x" alt="Mahiro is getting a hairdo from a friend">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Hairdo
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is getting a hairdo from a friend
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/66857970" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is getting a hairdo from a friend</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Happy_birthday_cake@2x.jpg" class="thumb-link" title="Happy birthday cake" data-size="1050x700">
-                                    <img src="images/portfolio/Happy_birthday_cake.jpg"
-                                         srcset="images/portfolio/Happy_birthday_cake.jpg 1x, images/portfolio/Happy_birthday_cake@2x.jpg 2x" alt="Mahiro is celebrating another birthday with some delicious cake">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Happy birthday cake
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is celebrating another birthday with some delicious cake
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/79919405" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is celebrating another birthday with some delicious cake</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Happy_birthday@2x.jpg" class="thumb-link" title="Happy birthday" data-size="1050x700">
-                                    <img src="images/portfolio/Happy_birthday.jpg"
-                                         srcset="images/portfolio/Happy_birthday.jpg 1x, images/portfolio/Happy_birthday@2x.jpg 2x" alt="Mahiro is very happy on her birthday">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Happy birthday
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is very happy on her birthday
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/79925657" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is very happy on her birthday</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Happy_Box@2x.jpg" class="thumb-link" title="Happy Box" data-size="1050x700">
-                                    <img src="images/portfolio/Happy_Box.jpg"
-                                         srcset="images/portfolio/Happy_Box.jpg 1x, images/portfolio/Happy_Box@2x.jpg 2x" alt="Mahiro delivers happiness from her Happy Box">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Happy Box
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro delivers happiness from her Happy Box
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/79083267" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro delivers happiness from her Happy Box</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Jutsu@2x.jpg" class="thumb-link" title="Jutsu" data-size="1050x700">
-                                    <img src="images/portfolio/Jutsu.jpg"
-                                         srcset="images/portfolio/Jutsu.jpg 1x, images/portfolio/Jutsu@2x.jpg 2x" alt="Mahiro is performing a powerful jutsu">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Jutsu
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is performing a powerful jutsu
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/78091479" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is performing a powerful jutsu</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Kitty_cat@2x.jpg" class="thumb-link" title="Kitty cat" data-size="1050x700">
-                                    <img src="images/portfolio/Kitty_cat.jpg"
-                                         srcset="images/portfolio/Kitty_cat.jpg 1x, images/portfolio/Kitty_cat@2x.jpg 2x" alt="Mahiro is being a cute kitty cat">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Kitty cat
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is being a cute kitty cat
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/68985613" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is being a cute kitty cat</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Heavenly@2x.jpg" class="thumb-link" title="Heavenly" data-size="1050x700">
-                                    <img src="images/portfolio/Heavenly.jpg"
-                                         srcset="images/portfolio/Heavenly.jpg 1x, images/portfolio/Heavenly@2x.jpg 2x" alt="Mahiro is filling the world with her heavenly influence">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Heavenly
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is filling the world with her heavenly influence
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/76664045" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is filling the world with her heavenly influence</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Magical_healer@2x.jpg" class="thumb-link" title="Magical healer" data-size="1050x700">
-                                    <img src="images/portfolio/Magical_healer.jpg"
-                                         srcset="images/portfolio/Magical_healer.jpg 1x, images/portfolio/Magical_healer@2x.jpg 2x" alt="Mahiro is the best magical healer there is">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Magical healer
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is the best magical healer there is
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/63093643" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is the best magical healer there is</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Mahiro_bear_hoodie@2x.jpg" class="thumb-link" title="Mahiro bear hoodie" data-size="1050x700">
-                                    <img src="images/portfolio/Mahiro_bear_hoodie.jpg"
-                                         srcset="images/portfolio/Mahiro_bear_hoodie.jpg 1x, images/portfolio/Mahiro_bear_hoodie@2x.jpg 2x" alt="Mahiro is staying cute in her bear hoodie">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Mahiro bear hoodie
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is staying cute in her bear hoodie
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/74898077" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is staying cute in her bear hoodie</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Mahiro_figurine@2x.jpg" class="thumb-link" title="Mahiro figurine" data-size="1050x700">
-                                    <img src="images/portfolio/Mahiro_figurine.jpg"
-                                         srcset="images/portfolio/Mahiro_figurine.jpg 1x, images/portfolio/Mahiro_figurine@2x.jpg 2x" alt="Mahiro has invaded the third dimension">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Mahiro figurine
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro has invaded the third dimension
-                                </p>
-                            </div>
-
-                            <a href="" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro has invaded the third dimension</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Sorry!@2x.jpg" class="thumb-link" title="Sorry!" data-size="1050x700">
-                                    <img src="images/portfolio/Sorry!.jpg"
-                                         srcset="images/portfolio/Sorry!.jpg 1x, images/portfolio/Sorry!@2x.jpg 2x" alt="Mahiro is very sorry">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Sorry!
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is very sorry
-                                </p>
-                            </div>
-
-                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is very sorry</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Mahiro_is_done_for@2x.jpg" class="thumb-link" title="Mahiro is done for" data-size="1050x700">
-                                    <img src="images/portfolio/Mahiro_is_done_for.jpg"
-                                         srcset="images/portfolio/Mahiro_is_done_for.jpg 1x, images/portfolio/Mahiro_is_done_for@2x.jpg 2x" alt="Mahiro's really done for">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Mahiro is done for
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro's really done for
-                                </p>
-                            </div>
-
-                            <a href="https://grinp.fanbox.cc/posts/10243" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro's really done for</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Mahiro_with_friend@2x.jpg" class="thumb-link" title="Mahiro with friend" data-size="1050x700">
-                                    <img src="images/portfolio/Mahiro_with_friend.jpg"
-                                         srcset="images/portfolio/Mahiro_with_friend.jpg 1x, images/portfolio/Mahiro_with_friend@2x.jpg 2x" alt="Mahiro is spending time a good friend of hers">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Mahiro with friend
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is spending time a good friend of hers
-                                </p>
-                            </div>
-
-                            <a href="https://grinp.fanbox.cc/posts/38847" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is spending time a good friend of hers</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Neko@2x.jpg" class="thumb-link" title="Neko" data-size="1050x700">
-                                    <img src="images/portfolio/Neko.jpg"
-                                         srcset="images/portfolio/Neko.jpg 1x, images/portfolio/Neko@2x.jpg 2x" alt="Mahiro's got fluffy ears and tail all of a sudden">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Neko
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro's got fluffy ears and tail all of a sudden
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/79855242" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro's got fluffy ears and tail all of a sudden</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Nervous@2x.jpg" class="thumb-link" title="Nervous" data-size="1050x700">
-                                    <img src="images/portfolio/Nervous.jpg"
-                                         srcset="images/portfolio/Nervous.jpg 1x, images/portfolio/Nervous@2x.jpg 2x" alt="Mahiro is nervously nervous about something nervous">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Nervous
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is nervously nervous about something nervous
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/80329247" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is nervously nervous about something nervous</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Oops@2x.jpg" class="thumb-link" title="Oops" data-size="1050x700">
-                                    <img src="images/portfolio/Oops.jpg"
-                                         srcset="images/portfolio/Oops.jpg 1x, images/portfolio/Oops@2x.jpg 2x" alt="Mahiro done goof">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Oops
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro done goof
-                                </p>
-                            </div>
-
-                            <a href="https://twitter.com/nekotou/status/1244175400348966912/photo/1" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro done goof</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Portrait@2x.jpg" class="thumb-link" title="Portrait" data-size="1050x700">
-                                    <img src="images/portfolio/Portrait.jpg"
-                                         srcset="images/portfolio/Portrait.jpg 1x, images/portfolio/Portrait@2x.jpg 2x" alt="Mahiro has very spiffy portraits">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Portrait
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro has very spiffy portraits
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/74288709" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro has very spiffy portraits</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Relaxing@2x.jpg" class="thumb-link" title="Relaxing" data-size="1050x700">
-                                    <img src="images/portfolio/Relaxing.jpg"
-                                         srcset="images/portfolio/Relaxing.jpg 1x, images/portfolio/Relaxing@2x.jpg 2x" alt="Mahiro is relaxing after a long day of guarding her home">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Relaxing
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is relaxing after a long day of guarding her home
-                                </p>
-                            </div>
-
-                            <a href="https://twitter.com/nekotou/status/1244175400348966912/photo/1" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is relaxing after a long day of guarding her home</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Riding_shark@2x.jpg" class="thumb-link" title="Riding shark" data-size="1050x700">
-                                    <img src="images/portfolio/Riding_shark.jpg"
-                                         srcset="images/portfolio/Riding_shark.jpg 1x, images/portfolio/Riding_shark@2x.jpg 2x" alt="Mahiro didn't expect this from her Uber">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Riding shark
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro didn't expect this from her Uber
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/71376937" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro didn't expect this from her Uber</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Smiling@2x.jpg" class="thumb-link" title="Smiling" data-size="1050x700">
-                                    <img src="images/portfolio/Smiling.jpg"
-                                         srcset="images/portfolio/Smiling.jpg 1x, images/portfolio/Smiling@2x.jpg 2x" alt="Mahiro is smiling cutely">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Smiling
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is smiling cutely
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/72455264" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is smiling cutely</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Delicious!@2x.jpg" class="thumb-link" title="Delicious!" data-size="1050x700">
-                                    <img src="images/portfolio/Delicious!.jpg"
-                                         srcset="images/portfolio/Delicious!.jpg 1x, images/portfolio/Delicious!@2x.jpg 2x" alt="Mahiro is enjoying a delicious piece meal">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Delicious!
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is enjoying a delicious piece of meat
-                                </p>
-                            </div>
-
-                            <a href="https://store.line.me/stickershop/product/11419726" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is enjoying a delicious piece meal</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Three@2x.jpg" class="thumb-link" title="Three" data-size="1050x700">
-                                    <img src="images/portfolio/Three.jpg"
-                                         srcset="images/portfolio/Three.jpg 1x, images/portfolio/Three@2x.jpg 2x" alt="Mahiro celebrates three years of her manga">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Three
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro celebrates three years of her manga
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/80390202" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro celebrates three years of her manga</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Uneasy@2x.jpg" class="thumb-link" title="Uneasy" data-size="1050x700">
-                                    <img src="images/portfolio/Uneasy.jpg"
-                                         srcset="images/portfolio/Uneasy.jpg 1x, images/portfolio/Uneasy@2x.jpg 2x" alt="Mahiro is feeling uneasy thinking about school">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Uneasy
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is feeling uneasy thinking about school
-                                </p>
-                            </div>
-
-                            <a href="https://www.pixiv.net/en/artworks/70928426" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is feeling uneasy thinking about school</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Going_to_bed@2x.jpg" class="thumb-link" title="Going to bed" data-size="1050x700">
-                                    <img src="images/portfolio/Going_to_bed.jpg"
-                                         srcset="images/portfolio/Going_to_bed.jpg 1x, images/portfolio/Going_to_bed@2x.jpg 2x" alt="Mahiro is going to bed">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Going to bed
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is going to bed
-                                </p>
-                            </div>
-
-                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is going to bed</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -1801,97 +318,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Shopping@2x.jpg" class="thumb-link" title="Shopping" data-size="1050x700">
-                                    <img src="images/portfolio/Shopping.jpg"
-                                         srcset="images/portfolio/Shopping.jpg 1x, images/portfolio/Shopping@2x.jpg 2x" alt="Mahiro is sipping soda while shopping">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Shopping
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is sipping soda while shopping
-                                </p>
-                            </div>
-
-                            <a href="https://seiga.nicovideo.jp/seiga/im9839317" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is sipping soda while shopping</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Afraid@2x.jpg" class="thumb-link" title="Afraid" data-size="1050x700">
-                                    <img src="images/portfolio/Afraid.jpg"
-                                         srcset="images/portfolio/Afraid.jpg 1x, images/portfolio/Afraid@2x.jpg 2x" alt="Mahiro is afraid">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Afraid
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is afraid
-                                </p>
-                            </div>
-
-                            <a href="https://store.line.me/stickershop/product/11419726/" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is afraid</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/Care_Free@2x.jpg" class="thumb-link" title="Care Free" data-size="1050x700">
-                                    <img src="images/portfolio/Care_Free.jpg"
-                                         srcset="images/portfolio/Care_Free.jpg 1x, images/portfolio/Care_Free@2x.jpg 2x" alt="Mahiro is care free">
-                                </a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Care Free
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Mahiro is care free
-                                </p>
-                            </div>
-
-                            <a href="https://store.line.me/stickershop/product/11419726/" target="_blank" class="item-folio__project-link" title="Image Source">
-                                <i class="icon-link"></i>
-                            </a>
-
-                            <div class="item-folio__caption">
-                                <p>Mahiro is care free</p>
-                            </div>
-
-                        </div>
-                    </div> <!-- end masonry__brick -->
-
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -1921,7 +348,67 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Afraid@2x.jpg" class="thumb-link" title="Afraid" data-size="1050x700">
+                                    <img src="images/portfolio/Afraid.jpg"
+                                         srcset="images/portfolio/Afraid.jpg 1x, images/portfolio/Afraid@2x.jpg 2x" alt="Mahiro is afraid">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Afraid
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is afraid
+                                </p>
+                            </div>
+
+                            <a href="https://store.line.me/stickershop/product/11419726/" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is afraid</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Care_Free@2x.jpg" class="thumb-link" title="Care Free" data-size="1050x700">
+                                    <img src="images/portfolio/Care_Free.jpg"
+                                         srcset="images/portfolio/Care_Free.jpg 1x, images/portfolio/Care_Free@2x.jpg 2x" alt="Mahiro is care free">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Care Free
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is care free
+                                </p>
+                            </div>
+
+                            <a href="https://store.line.me/stickershop/product/11419726/" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is care free</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -1951,7 +438,37 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Shopping@2x.jpg" class="thumb-link" title="Shopping" data-size="1050x700">
+                                    <img src="images/portfolio/Shopping.jpg"
+                                         srcset="images/portfolio/Shopping.jpg 1x, images/portfolio/Shopping@2x.jpg 2x" alt="Mahiro is sipping soda while shopping">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Shopping
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is sipping soda while shopping
+                                </p>
+                            </div>
+
+                            <a href="https://seiga.nicovideo.jp/seiga/im9839317" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is sipping soda while shopping</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -1981,7 +498,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -2011,7 +528,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -2041,7 +558,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -2071,7 +588,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -2101,7 +618,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -2131,7 +648,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -2161,7 +678,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -2191,7 +708,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -2221,7 +738,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -2251,7 +768,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -2281,7 +798,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -2311,7 +828,7 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
@@ -2341,13 +858,13 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
-                    <div class="masonry__brick" data-aos="fade-up">
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
                         <div class="item-folio">
 
                             <div class="item-folio__thumb">
                                 <a href="images/portfolio/Calm@2x.jpg" class="thumb-link" title="Calm" data-size="1050x700">
                                     <img src="images/portfolio/Calm.jpg"
-                                         srcset="images/portfolio/Calm.jpg 1x, images/portfolio/Smooth@2x.jpg 2x" alt="Mahiro is as calm as the sea">
+                                         srcset="images/portfolio/Calm.jpg 1x, images/portfolio/Calm@2x.jpg 2x" alt="Mahiro is as calm as the sea">
                                 </a>
                             </div>
 
@@ -2371,58 +888,1798 @@
                         </div>
                     </div> <!-- end masonry__brick -->
 
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Purse@2x.jpg" class="thumb-link" title="Purse" data-size="1050x700">
+                                    <img src="images/portfolio/Purse.jpg"
+                                         srcset="images/portfolio/Purse.jpg 1x, images/portfolio/Purse@2x.jpg 2x" alt="Mahiro is looking proper with a purse">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Purse
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is looking proper with a purse
+                                </p>
+                            </div>
+
+                            <a href="https://grinp.stores.jp/items/5ca2257ed18c931b1ced11fa" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Purse</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Kimono@2x.jpg" class="thumb-link" title="Kimono" data-size="1050x700">
+                                    <img src="images/portfolio/Kimono.jpg"
+                                         srcset="images/portfolio/Kimono.jpg 1x, images/portfolio/Kimono@2x.jpg 2x" alt="Mahiro is looking traditional with a kimono">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Kimono
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is looking traditional with a kimono
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/66567593" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Kimono</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/School_Uniform@2x.jpg" class="thumb-link" title="School Uniform" data-size="1050x700">
+                                    <img src="images/portfolio/School_Uniform.jpg"
+                                         srcset="images/portfolio/School_Uniform.jpg 1x, images/portfolio/School_Uniform@2x.jpg 2x" alt="Mahiro is ready for school">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    School Uniform
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is ready for school
+                                </p>
+                            </div>
+
+                            <a href="https://grinp.stores.jp/items/5c5990eee73a25550c9b8c34" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>School Uniform</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Cotton_Candy_Kimono@2x.jpg" class="thumb-link" title="Cotton Candy" data-size="1050x700">
+                                    <img src="images/portfolio/Cotton_Candy_Kimono.jpg"
+                                         srcset="images/portfolio/Cotton_Candy_Kimono.jpg 1x, images/portfolio/Cotton_Candy_Kimono@2x.jpg 2x" alt="Mahiro loves cotton candy">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Cotton Candy
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro loves cotton candy
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/64450260" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Cotton Candy</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Autumn@2x.jpg" class="thumb-link" title="Autumn" data-size="1050x700">
+                                    <img src="images/portfolio/Autumn.jpg"
+                                         srcset="images/portfolio/Autumn.jpg 1x, images/portfolio/Autumn@2x.jpg 2x" alt="Mahiro is ready for autumn with her snug hoodie">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Autumn
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is ready for autumn with her snug hoodie
+                                </p>
+                            </div>
+
+                            <a href="https://grinp.stores.jp/items/5da06995ff78bd173c32760d" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Autumn</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Bust@2x.jpg" class="thumb-link" title="Bust" data-size="1050x700">
+                                    <img src="images/portfolio/Bust.jpg"
+                                         srcset="images/portfolio/Bust.jpg 1x, images/portfolio/Bust@2x.jpg 2x" alt="Mahiro's even got her own bust">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Bust
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro's even got her own bust
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/79779317" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Bust</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Birthday@2x.jpg" class="thumb-link" title="Birthday" data-size="1050x700">
+                                    <img src="images/portfolio/Birthday.jpg"
+                                         srcset="images/portfolio/Birthday.jpg 1x, images/portfolio/Birthday@2x.jpg 2x" alt="Mahiro's happy on her birthday">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Birthday
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro's happy on her birthday
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/79984923" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Birthday</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Satisfied@2x.jpg" class="thumb-link" title="Satisfied" data-size="1050x700">
+                                    <img src="images/portfolio/Satisfied.jpg"
+                                         srcset="images/portfolio/Satisfied.jpg 1x, images/portfolio/Satisfied@2x.jpg 2x" alt="Mahiro is satisified in the moment">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Satisfied
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is satisified in the moment
+                                </p>
+                            </div>
+
+                            <a href="https://grinp.stores.jp/items/5e4d2306cf327f6acd14eb20" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Satisfied</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Blue_Hoodie@2x.jpg" class="thumb-link" title="Blue Hoodie" data-size="1050x700">
+                                    <img src="images/portfolio/Blue_Hoodie.jpg"
+                                         srcset="images/portfolio/Blue_Hoodie.jpg 1x, images/portfolio/Blue_Hoodie@2x.jpg 2x" alt="Mahiro is chilling in her blue hoodie">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Blue Hoodie
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is chilling in her blue hoodie
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/72677257" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Blue Hoodie</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Yaaay@2x.jpg" class="thumb-link" title="Yaaay" data-size="1050x700">
+                                    <img src="images/portfolio/Yaaay.jpg"
+                                         srcset="images/portfolio/Yaaay.jpg 1x, images/portfolio/Yaaay@2x.jpg 2x" alt="Mahiro is happy">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Yaaay
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is happy
+                                </p>
+                            </div>
+
+                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is happy</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Walking@2x.jpg" class="thumb-link" title="Walking" data-size="1050x700">
+                                    <img src="images/portfolio/Walking.jpg"
+                                         srcset="images/portfolio/Walking.jpg 1x, images/portfolio/Walking@2x.jpg 2x" alt="Mahiro is seen taking a lovely stroll">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Walking
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is seen taking a lovely stroll
+                                </p>
+                            </div>
+
+                            <a href="https://mangadex.org/chapter/622923/13" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is seen taking a lovely stroll</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Smug@2x.jpg" class="thumb-link" title="Smug" data-size="1050x700">
+                                    <img src="images/portfolio/Smug.jpg"
+                                         srcset="images/portfolio/Smug.jpg 1x, images/portfolio/Smug@2x.jpg 2x" alt="Mahiro is gleeming with smugness">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Smug
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is gleeming with smugness
+                                </p>
+                            </div>
+
+                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is gleeming with smugness</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Meoooow@2x.jpg" class="thumb-link" title="Meoooow" data-size="1050x700">
+                                    <img src="images/portfolio/Meoooow.jpg"
+                                         srcset="images/portfolio/Meoooow.jpg 1x, images/portfolio/Meoooow@2x.jpg 2x" alt="Mahiro is a kitty cat">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Meoooow
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is a kitty cat
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/68985613" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is a kitty cat</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Super_Smug@2x.jpg" class="thumb-link" title="Super Smug" data-size="1050x700">
+                                    <img src="images/portfolio/Super_Smug.jpg"
+                                         srcset="images/portfolio/Super_Smug.jpg 1x, images/portfolio/Super_Smug@2x.jpg 2x" alt="Mahiro is radiating with concentrated smugness">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Super Smug
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is radiating with concentrated smugness
+                                </p>
+                            </div>
+
+                            <a href="https://grinp.fanbox.cc/posts/849800" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is radiating with concentrated smugness</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Pouty@2x.jpg" class="thumb-link" title="Pouty" data-size="1050x700">
+                                    <img src="images/portfolio/Pouty.jpg"
+                                         srcset="images/portfolio/Pouty.jpg 1x, images/portfolio/Pouty@2x.jpg 2x" alt="Mahiro is cutely being angry">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Pouty
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is cutely being angry
+                                </p>
+                            </div>
+
+                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is cutely being angry</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Going_Home@2x.jpg" class="thumb-link" title="Going Home" data-size="1050x700">
+                                    <img src="images/portfolio/Going_Home.jpg"
+                                         srcset="images/portfolio/Going_Home.jpg 1x, images/portfolio/Going_Home@2x.jpg 2x" alt="Mahiro thinks it's time to go home">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Going Home
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro thinks it's time to go home
+                                </p>
+                            </div>
+
+                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro thinks it's time to go home</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Mornin'...@2x.jpg" class="thumb-link" title="Mornin'..." data-size="1050x700">
+                                    <img src="images/portfolio/Mornin'....jpg"
+                                         srcset="images/portfolio/Mornin'....jpg 1x, images/portfolio/Mornin'...@2x.jpg 2x" alt="Mahiro just awoke from her slumber">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Mornin'...
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro just awoke from her slumber
+                                </p>
+                            </div>
+
+                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro just awoke from her slumber</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Pondering@2x.jpg" class="thumb-link" title="Pondering" data-size="1050x700">
+                                    <img src="images/portfolio/Pondering.jpg"
+                                         srcset="images/portfolio/Pondering.jpg 1x, images/portfolio/Pondering@2x.jpg 2x" alt="Mahiro is pondering about cute things">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Pondering
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is pondering about cute things
+                                </p>
+                            </div>
+
+                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is pondering about cute things</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/So_cruel!@2x.jpg" class="thumb-link" title="So cruel!" data-size="1050x700">
+                                    <img src="images/portfolio/So_cruel!.jpg"
+                                         srcset="images/portfolio/So_cruel!.jpg 1x, images/portfolio/So_cruel!@2x.jpg 2x" alt="Mahiro is agonizing over the cruelty of life">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    So cruel!
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is agonizing over the cruelty of life
+                                </p>
+                            </div>
+
+                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is agonizing over the cruelty of life</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Surprised@2x.jpg" class="thumb-link" title="Surprised" data-size="1050x700">
+                                    <img src="images/portfolio/Surprised.jpg"
+                                         srcset="images/portfolio/Surprised.jpg 1x, images/portfolio/Surprised@2x.jpg 2x" alt="Mahiro is suprisingly suprised by something suprising">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Surprised
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is suprisingly suprised by something suprising
+                                </p>
+                            </div>
+
+                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is suprisingly suprised by something suprising</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Anxious@2x.jpg" class="thumb-link" title="Anxious" data-size="1050x700">
+                                    <img src="images/portfolio/Anxious.jpg"
+                                         srcset="images/portfolio/Anxious.jpg 1x, images/portfolio/Anxious@2x.jpg 2x" alt="Mahiro is anxiously anxious about something anxious">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Anxious
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is anxiously anxious about something anxious
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/76268033" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is anxiously anxious about something anxious</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Becoming_ladylike@2x.jpg" class="thumb-link" title="Becoming ladylike" data-size="1050x700">
+                                    <img src="images/portfolio/Becoming_ladylike.jpg"
+                                         srcset="images/portfolio/Becoming_ladylike.jpg 1x, images/portfolio/Becoming_ladylike@2x.jpg 2x" alt="Mahiro is improving her ladylike mannerisms">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Becoming ladylike
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is improving her ladylike mannerisms
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/79696209" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is improving her ladylike mannerisms</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Bliss@2x.jpg" class="thumb-link" title="Bliss" data-size="1050x700">
+                                    <img src="images/portfolio/Bliss.jpg"
+                                         srcset="images/portfolio/Bliss.jpg 1x, images/portfolio/Bliss@2x.jpg 2x" alt="Mahiro is swimming in bliss">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Bliss
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is swimming in bliss
+                                </p>
+                            </div>
+
+                            <a href="https://grinp.fanbox.cc/posts/62533" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is swimming in bliss</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Blushing@2x.jpg" class="thumb-link" title="Blushing" data-size="1050x700">
+                                    <img src="images/portfolio/Blushing.jpg"
+                                         srcset="images/portfolio/Blushing.jpg 1x, images/portfolio/Blushing@2x.jpg 2x" alt="Mahiro is cutely blushing out of embarrassment">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Blushing
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is cutely blushing out of embarrassment
+                                </p>
+                            </div>
+
+                            <a href="https://twitter.com/nekotou/status/1244175400348966912/photo/1" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is cutely blushing out of embarrassment</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Doing_hair@2x.jpg" class="thumb-link" title="Doing hair" data-size="1050x700">
+                                    <img src="images/portfolio/Doing_hair.jpg"
+                                         srcset="images/portfolio/Doing_hair.jpg 1x, images/portfolio/Doing_hair@2x.jpg 2x" alt="Mahiro is getting her hair done by a friend">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Doing hair
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is getting her hair done by a friend
+                                </p>
+                            </div>
+
+                            <a href="https://grinp.fanbox.cc/posts/706947" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is getting her hair done by a friend</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Cat_in_the_town@2x.jpg" class="thumb-link" title="Cat in the town" data-size="1050x700">
+                                    <img src="images/portfolio/Cat_in_the_town.jpg"
+                                         srcset="images/portfolio/Cat_in_the_town.jpg 1x, images/portfolio/Cat_in_the_town@2x.jpg 2x" alt="Mahiro the cat is out in the town">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Cat in the town
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro the cat is out in the town
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/73981839" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro the cat is out in the town</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Cat_Pajamas@2x.jpg" class="thumb-link" title="Cat Pajamas" data-size="1050x700">
+                                    <img src="images/portfolio/Cat_Pajamas.jpg"
+                                         srcset="images/portfolio/Cat_Pajamas.jpg 1x, images/portfolio/Cat_Pajamas@2x.jpg 2x" alt="Mahiro is wearing cute, cat pajamas">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Cat Pajamas
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is wearing cute cat pajamas
+                                </p>
+                            </div>
+
+                            <a href="https://grinp.stores.jp/items/5b2e707b50bbc327bd001eb4" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is wearing cute, cat pajamas</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Vintage@2x.jpg" class="thumb-link" title="Vintage" data-size="1050x700">
+                                    <img src="images/portfolio/Vintage.jpg"
+                                         srcset="images/portfolio/Vintage.jpg 1x, images/portfolio/Vintage@2x.jpg 2x" alt="Mahiro is looking pretty vintage">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Vintage
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is looking pretty vintage
+                                </p>
+                            </div>
+
+                            <a href="https://www.anime-japan.jp/img/main/img-aniran-03-02.jpg" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is looking pretty vintage</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Depressed@2x.jpg" class="thumb-link" title="Depressed" data-size="1050x700">
+                                    <img src="images/portfolio/Depressed.jpg"
+                                         srcset="images/portfolio/Depressed.jpg 1x, images/portfolio/Depressed@2x.jpg 2x" alt="Mahiro is down in the blues">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Depressed
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is down in the blues
+                                </p>
+                            </div>
+
+                            <a href="https://twitter.com/nekotou/status/1244175400348966912/photo/1" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is down in the blues</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Dresses@2x.jpg" class="thumb-link" title="Dresses" data-size="1050x700">
+                                    <img src="images/portfolio/Dresses.jpg"
+                                         srcset="images/portfolio/Dresses.jpg 1x, images/portfolio/Dresses@2x.jpg 2x" alt="Mahiro is dressing up with a friend">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Dresses
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is dressing up with a friend
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/75496047" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is dressing up with a friend</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Extra_Volume_2_Drama_CD@2x.jpg" class="thumb-link" title="Extra Volume 2 Drama CD" data-size="1050x700">
+                                    <img src="images/portfolio/Extra_Volume_2_Drama_CD.jpg"
+                                         srcset="images/portfolio/Extra_Volume_2_Drama_CD.jpg 1x, images/portfolio/Extra_Volume_2_Drama_CD@2x.jpg 2x" alt="Mahiro is seen on the front of an Extra Volume 2 Drama CD">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Extra Volume 2 Drama CD
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is seen on the front of an Extra Volume 2 Drama CD
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/78345045" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is seen on the front of an Extra Volume 2 Drama CD</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Fancy_clothes@2x.jpg" class="thumb-link" title="Fancy clothes" data-size="1050x700">
+                                    <img src="images/portfolio/Fancy_clothes.jpg"
+                                         srcset="images/portfolio/Fancy_clothes.jpg 1x, images/portfolio/Fancy_clothes@2x.jpg 2x" alt="Mahiro is trying out lots of cute clothes">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Fancy clothes
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is trying out lots of cute clothes
+                                </p>
+                            </div>
+
+                            <a href="https://grinp.fanbox.cc/posts/153260" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is trying out lots of cute clothes</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Fancy_hat@2x.jpg" class="thumb-link" title="Fancy hat" data-size="1050x700">
+                                    <img src="images/portfolio/Fancy_hat.jpg"
+                                         srcset="images/portfolio/Fancy_hat.jpg 1x, images/portfolio/Fancy_hat@2x.jpg 2x" alt="Mahiro is seen wearing a fancy hat">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Fancy hat
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is seen wearing a fancy hat
+                                </p>
+                            </div>
+
+                            <a href="https://grinp.stores.jp/items/5af66a1e5f786658db001253" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is seen wearing a fancy hat</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Yes!@2x.jpg" class="thumb-link" title="Yes!" data-size="1050x700">
+                                    <img src="images/portfolio/Yes!.jpg"
+                                         srcset="images/portfolio/Yes!.jpg 1x, images/portfolio/Yes!@2x.jpg 2x" alt="Mahiro is sure of something">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Yes!
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is sure of something
+                                </p>
+                            </div>
+
+                            <a href="https://store.line.me/stickershop/product/11419726/" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Yes!</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Hairdo@2x.jpg" class="thumb-link" title="Hairdo" data-size="1050x700">
+                                    <img src="images/portfolio/Hairdo.jpg"
+                                         srcset="images/portfolio/Hairdo.jpg 1x, images/portfolio/Hairdo@2x.jpg 2x" alt="Mahiro is getting a hairdo from a friend">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Hairdo
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is getting a hairdo from a friend
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/66857970" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is getting a hairdo from a friend</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Happy_birthday_cake@2x.jpg" class="thumb-link" title="Happy birthday cake" data-size="1050x700">
+                                    <img src="images/portfolio/Happy_birthday_cake.jpg"
+                                         srcset="images/portfolio/Happy_birthday_cake.jpg 1x, images/portfolio/Happy_birthday_cake@2x.jpg 2x" alt="Mahiro is celebrating another birthday with some delicious cake">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Happy birthday cake
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is celebrating another birthday with some delicious cake
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/79919405" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is celebrating another birthday with some delicious cake</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Happy_birthday@2x.jpg" class="thumb-link" title="Happy birthday" data-size="1050x700">
+                                    <img src="images/portfolio/Happy_birthday.jpg"
+                                         srcset="images/portfolio/Happy_birthday.jpg 1x, images/portfolio/Happy_birthday@2x.jpg 2x" alt="Mahiro is very happy on her birthday">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Happy birthday
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is very happy on her birthday
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/79925657" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is very happy on her birthday</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Happy_Box@2x.jpg" class="thumb-link" title="Happy Box" data-size="1050x700">
+                                    <img src="images/portfolio/Happy_Box.jpg"
+                                         srcset="images/portfolio/Happy_Box.jpg 1x, images/portfolio/Happy_Box@2x.jpg 2x" alt="Mahiro delivers happiness from her Happy Box">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Happy Box
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro delivers happiness from her Happy Box
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/79083267" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro delivers happiness from her Happy Box</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Jutsu@2x.jpg" class="thumb-link" title="Jutsu" data-size="1050x700">
+                                    <img src="images/portfolio/Jutsu.jpg"
+                                         srcset="images/portfolio/Jutsu.jpg 1x, images/portfolio/Jutsu@2x.jpg 2x" alt="Mahiro is performing a powerful jutsu">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Jutsu
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is performing a powerful jutsu
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/78091479" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is performing a powerful jutsu</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Kitty_cat@2x.jpg" class="thumb-link" title="Kitty cat" data-size="1050x700">
+                                    <img src="images/portfolio/Kitty_cat.jpg"
+                                         srcset="images/portfolio/Kitty_cat.jpg 1x, images/portfolio/Kitty_cat@2x.jpg 2x" alt="Mahiro is being a cute kitty cat">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Kitty cat
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is being a cute kitty cat
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/68985613" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is being a cute kitty cat</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Heavenly@2x.jpg" class="thumb-link" title="Heavenly" data-size="1050x700">
+                                    <img src="images/portfolio/Heavenly.jpg"
+                                         srcset="images/portfolio/Heavenly.jpg 1x, images/portfolio/Heavenly@2x.jpg 2x" alt="Mahiro is filling the world with her heavenly influence">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Heavenly
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is filling the world with her heavenly influence
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/76664045" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is filling the world with her heavenly influence</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Magical_healer@2x.jpg" class="thumb-link" title="Magical healer" data-size="1050x700">
+                                    <img src="images/portfolio/Magical_healer.jpg"
+                                         srcset="images/portfolio/Magical_healer.jpg 1x, images/portfolio/Magical_healer@2x.jpg 2x" alt="Mahiro is the best magical healer there is">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Magical healer
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is the best magical healer there is
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/63093643" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is the best magical healer there is</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Mahiro_bear_hoodie@2x.jpg" class="thumb-link" title="Mahiro bear hoodie" data-size="1050x700">
+                                    <img src="images/portfolio/Mahiro_bear_hoodie.jpg"
+                                         srcset="images/portfolio/Mahiro_bear_hoodie.jpg 1x, images/portfolio/Mahiro_bear_hoodie@2x.jpg 2x" alt="Mahiro is staying cute in her bear hoodie">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Mahiro bear hoodie
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is staying cute in her bear hoodie
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/74898077" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is staying cute in her bear hoodie</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Mahiro_figurine@2x.jpg" class="thumb-link" title="Mahiro figurine" data-size="1050x700">
+                                    <img src="images/portfolio/Mahiro_figurine.jpg"
+                                         srcset="images/portfolio/Mahiro_figurine.jpg 1x, images/portfolio/Mahiro_figurine@2x.jpg 2x" alt="Mahiro has invaded the third dimension">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Mahiro figurine
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro has invaded the third dimension
+                                </p>
+                            </div>
+
+                            <a href="" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro has invaded the third dimension</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Sorry!@2x.jpg" class="thumb-link" title="Sorry!" data-size="1050x700">
+                                    <img src="images/portfolio/Sorry!.jpg"
+                                         srcset="images/portfolio/Sorry!.jpg 1x, images/portfolio/Sorry!@2x.jpg 2x" alt="Mahiro is very sorry">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Sorry!
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is very sorry
+                                </p>
+                            </div>
+
+                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is very sorry</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Mahiro_is_done_for@2x.jpg" class="thumb-link" title="Mahiro is done for" data-size="1050x700">
+                                    <img src="images/portfolio/Mahiro_is_done_for.jpg"
+                                         srcset="images/portfolio/Mahiro_is_done_for.jpg 1x, images/portfolio/Mahiro_is_done_for@2x.jpg 2x" alt="Mahiro's really done for">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Mahiro is done for
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro's really done for
+                                </p>
+                            </div>
+
+                            <a href="https://grinp.fanbox.cc/posts/10243" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro's really done for</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Mahiro_with_friend@2x.jpg" class="thumb-link" title="Mahiro with friend" data-size="1050x700">
+                                    <img src="images/portfolio/Mahiro_with_friend.jpg"
+                                         srcset="images/portfolio/Mahiro_with_friend.jpg 1x, images/portfolio/Mahiro_with_friend@2x.jpg 2x" alt="Mahiro is spending time a good friend of hers">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Mahiro with friend
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is spending time a good friend of hers
+                                </p>
+                            </div>
+
+                            <a href="https://grinp.fanbox.cc/posts/38847" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is spending time a good friend of hers</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Neko@2x.jpg" class="thumb-link" title="Neko" data-size="1050x700">
+                                    <img src="images/portfolio/Neko.jpg"
+                                         srcset="images/portfolio/Neko.jpg 1x, images/portfolio/Neko@2x.jpg 2x" alt="Mahiro's got fluffy ears and tail all of a sudden">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Neko
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro's got fluffy ears and tail all of a sudden
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/79855242" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro's got fluffy ears and tail all of a sudden</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Nervous@2x.jpg" class="thumb-link" title="Nervous" data-size="1050x700">
+                                    <img src="images/portfolio/Nervous.jpg"
+                                         srcset="images/portfolio/Nervous.jpg 1x, images/portfolio/Nervous@2x.jpg 2x" alt="Mahiro is nervously nervous about something nervous">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Nervous
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is nervously nervous about something nervous
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/80329247" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is nervously nervous about something nervous</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Oops@2x.jpg" class="thumb-link" title="Oops" data-size="1050x700">
+                                    <img src="images/portfolio/Oops.jpg"
+                                         srcset="images/portfolio/Oops.jpg 1x, images/portfolio/Oops@2x.jpg 2x" alt="Mahiro done goof">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Oops
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro done goof
+                                </p>
+                            </div>
+
+                            <a href="https://twitter.com/nekotou/status/1244175400348966912/photo/1" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro done goof</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Portrait@2x.jpg" class="thumb-link" title="Portrait" data-size="1050x700">
+                                    <img src="images/portfolio/Portrait.jpg"
+                                         srcset="images/portfolio/Portrait.jpg 1x, images/portfolio/Portrait@2x.jpg 2x" alt="Mahiro has very spiffy portraits">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Portrait
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro has very spiffy portraits
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/74288709" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro has very spiffy portraits</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Relaxing@2x.jpg" class="thumb-link" title="Relaxing" data-size="1050x700">
+                                    <img src="images/portfolio/Relaxing.jpg"
+                                         srcset="images/portfolio/Relaxing.jpg 1x, images/portfolio/Relaxing@2x.jpg 2x" alt="Mahiro is relaxing after a long day of guarding her home">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Relaxing
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is relaxing after a long day of guarding her home
+                                </p>
+                            </div>
+
+                            <a href="https://twitter.com/nekotou/status/1244175400348966912/photo/1" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is relaxing after a long day of guarding her home</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Riding_shark@2x.jpg" class="thumb-link" title="Riding shark" data-size="1050x700">
+                                    <img src="images/portfolio/Riding_shark.jpg"
+                                         srcset="images/portfolio/Riding_shark.jpg 1x, images/portfolio/Riding_shark@2x.jpg 2x" alt="Mahiro didn't expect this from her Uber">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Riding shark
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro didn't expect this from her Uber
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/71376937" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro didn't expect this from her Uber</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Smiling@2x.jpg" class="thumb-link" title="Smiling" data-size="1050x700">
+                                    <img src="images/portfolio/Smiling.jpg"
+                                         srcset="images/portfolio/Smiling.jpg 1x, images/portfolio/Smiling@2x.jpg 2x" alt="Mahiro is smiling cutely">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Smiling
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is smiling cutely
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/72455264" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is smiling cutely</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Delicious!@2x.jpg" class="thumb-link" title="Delicious!" data-size="1050x700">
+                                    <img src="images/portfolio/Delicious!.jpg"
+                                         srcset="images/portfolio/Delicious!.jpg 1x, images/portfolio/Delicious!@2x.jpg 2x" alt="Mahiro is enjoying a delicious piece meal">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Delicious!
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is enjoying a delicious piece of meat
+                                </p>
+                            </div>
+
+                            <a href="https://store.line.me/stickershop/product/11419726" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is enjoying a delicious piece meal</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Three@2x.jpg" class="thumb-link" title="Three" data-size="1050x700">
+                                    <img src="images/portfolio/Three.jpg"
+                                         srcset="images/portfolio/Three.jpg 1x, images/portfolio/Three@2x.jpg 2x" alt="Mahiro celebrates three years of her manga">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Three
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro celebrates three years of her manga
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/80390202" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro celebrates three years of her manga</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Uneasy@2x.jpg" class="thumb-link" title="Uneasy" data-size="1050x700">
+                                    <img src="images/portfolio/Uneasy.jpg"
+                                         srcset="images/portfolio/Uneasy.jpg 1x, images/portfolio/Uneasy@2x.jpg 2x" alt="Mahiro is feeling uneasy thinking about school">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Uneasy
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is feeling uneasy thinking about school
+                                </p>
+                            </div>
+
+                            <a href="https://www.pixiv.net/en/artworks/70928426" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is feeling uneasy thinking about school</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick wow animate__animated animate__fadeInUp">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/Going_to_bed@2x.jpg" class="thumb-link" title="Going to bed" data-size="1050x700">
+                                    <img src="images/portfolio/Going_to_bed.jpg"
+                                         srcset="images/portfolio/Going_to_bed.jpg 1x, images/portfolio/Going_to_bed@2x.jpg 2x" alt="Mahiro is going to bed">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Going to bed
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Mahiro is going to bed
+                                </p>
+                            </div>
+
+                            <a href="https://store.line.me/stickershop/product/7498580/" target="_blank" class="item-folio__project-link" title="Image Source">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                                <p>Mahiro is going to bed</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
 
                 </div> <!-- end masonry -->
             </div> <!-- end col-full -->
         </div> <!-- end works-content -->
     </section> <!-- end s-works -->
-
-
     <!-- bonus
     ================================================== -->
- <!--  <section id='bonus' class="s-bonus">
+    <!--  <section id='bonus' class="s-bonus">
 
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full bonus-logo">
-                <a class="about" href="index.html">
-                    <img class="lazyload" src="images/logo-3.jpg" alt="Icon">
-                </a>
-                <h3 class="subhead subhead--light">Hey!</h3>
-                <h3 class="display-1 display-1--light">Here's some cool, bonus stuff</h3>
-            </div>
-        </div> <!-- end section-header 
+           <div class="row section-header has-bottom-sep" data-aos="fade-up">
+               <div class="col-full bonus-logo">
+                   <a class="about" href="index.html">
+                       <img class="lazyload" src="images/logo-3.jpg" alt="Icon">
+                   </a>
+                   <h3 class="subhead subhead--light">Hey!</h3>
+                   <h3 class="display-1 display-1--light">Here's some cool, bonus stuff</h3>
+               </div>
+           </div> <!-- end section-header
 
-        <div class="row bonus-desc" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead subhead--light" align="center">
-                    Here's a drama cd
-                </h3>
-            </div>
-        </div> <!-- end bonus-desc 
+           <div class="row bonus-desc" data-aos="fade-up">
+               <div class="col-full">
+                   <h3 class="subhead subhead--light" align="center">
+                       Here's a drama cd
+                   </h3>
+               </div>
+           </div> <!-- end bonus-desc
 
-        <div class="video-container">
-            <iframe class="lazyload" src="https://www.youtube-nocookie.com/embed/HHFOCxJnrsY" title="Onii-chan is Done For Drama CD 2 - Koko kara(from now on)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+           <div class="video-container">
+               <iframe class="lazyload" src="https://www.youtube-nocookie.com/embed/HHFOCxJnrsY" title="Onii-chan is Done For Drama CD 2 - Koko kara(from now on)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
 
-    </section> <!-- end s-bonus -->
-
+       </section> <!-- end s-bonus -->
     <!-- footer
     ================================================== -->
- <!--   <footer>
+    <!--<footer>
 
         <div class="row footer-bottom">
 
-            <div class="col-twelve">
-                <div class="copyright">
-                    <span>2020</span>
-                </div>
-
-                <div class="go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
-                </div>
+        <div class="col-twelve">
+            <div class="copyright">
+                <span>2020</span>
             </div>
 
-        </div> <!-- end footer-bottom 
+        <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+        </div>
+
+        </div>
+
+    </div> <!-- end footer-bottom
+
+
 
     </footer> <!-- end footer -->
     <!-- photoswipe background
@@ -2441,9 +2698,7 @@
             <div class="pswp__ui pswp__ui--hidden">
                 <div class="pswp__top-bar">
                     <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                    <button class="pswp__button pswp__button--source" title="Image Source" href="https://seiga.nicovideo.jp/seiga/im9839317" target="_blank">
-
-                    </button>
+                    <!--<button class="pswp__button pswp__button--source" title="Image Source" href="https://seiga.nicovideo.jp/seiga/im9839317" target="_blank"></button> -->
                     <div class="pswp__preloader">
                         <div class="pswp__preloader__icn">
                             <div class="pswp__preloader__cut">
@@ -2463,13 +2718,27 @@
         </div>
 
     </div> <!-- end photoSwipe background -->
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
     <!-- Java Script
     ================================================== -->
-
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
 
 </body>
 

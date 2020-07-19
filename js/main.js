@@ -97,7 +97,7 @@
     };
 
 
-   /* photoswipe
+   /* Photoswipe
     * ----------------------------------------------------- */
     var clPhotoswipe = function() {
         var items = [],
@@ -111,6 +111,7 @@
                     $thumbLink =  $folio.find('.thumb-link'),
                     $title = $folio.find('.item-folio__title'),
                     $caption = $folio.find('.item-folio__caption'),
+                    $link = $folio.find('.item-folio__project-link'),
                     $titleText = '<h4>' + $.trim($title.html()) + '</h4>',
                     $captionText = $.trim($caption.html()),
                     $href = $thumbLink.attr('href'),
@@ -132,8 +133,8 @@
             });
 
             // bind click event
-            $folioItems.each(function(i) {
-
+            $folioItems.each(function(i) 
+            {
                 $(this).on('click', function(e) {
                     e.preventDefault();
                     var options = {
@@ -145,9 +146,24 @@
                     var lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
                     lightBox.init();
                 });
-
+                
             });
 
+    };
+
+
+    /* Masonry
+ * ---------------------------------------------------- */
+    var clMasonryFolio = function () {
+
+        var containerBricks = $('.masonry');
+
+        containerBricks.imagesLoaded(function () {
+            containerBricks.masonry({
+                itemSelector: '.masonry__brick',
+                resize: true
+            });
+        });
     };
     
 
@@ -185,21 +201,6 @@
 
             offset: "90%"
 
-        });
-    };
-
-
-   /* Masonry
-    * ---------------------------------------------------- */ 
-    var clMasonryFolio = function () {
-        
-        var containerBricks = $('.masonry');
-
-        containerBricks.imagesLoaded(function () {
-            containerBricks.masonry({
-                itemSelector: '.masonry__brick',
-                resize: true
-            });
         });
     };
 
@@ -249,11 +250,10 @@
             easing: 'ease-in-sine',
             delay: 300,
             once: true,
-            disable: 'mobile',
-            anchorPlacement: 'top-bottom'
+            disable: 'mobile'
         });
 
-    };
+    }; 
 
 
    /* Back to Top
@@ -275,6 +275,8 @@
             }
         });
     };
+
+    new WOW().init();
 
 
    /* Initialize
