@@ -278,6 +278,22 @@
 
     new WOW().init();
 
+    f_masonry();
+
+    $("img").lazyload({
+        effect: "fadeIn",
+        failurelimit: 40,
+        load: f_masonry,
+        });
+
+    function f_masonry() {
+        $('.masonry').masonry({
+            gutterWidth: 20,
+            itemSelector: '.item',
+            isAnimated: true,
+        });
+    }
+
 
    /* Initialize
     * ------------------------------------------------------ */
