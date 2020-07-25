@@ -331,20 +331,127 @@ video {
 
 .site-banner {
     position: absolute;
-    top: 40%;
-    left: 47%;
+    top: -3%;
+    left: 43%;
     z-index: 500;
+    max-width: 25vw;
 }
 
 .site-banner img {
     position: absolute;
-    max-width: 25vw;
-    top: 58%;
-    left: 53%;
     animation-duration: 2s;
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
 }
+
+@media only screen and (min-width: 1601px) {
+    .site-banner {
+    top: 14%;
+    left: 44%;
+    }
+    .site-banner img {
+        max-width: 400px;
+    }
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .site-banner {
+    top: 14%;
+    left: 44%;
+    }
+    .site-banner img {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .site-banner {
+top: 19%;
+    left: 51%;
+    }
+    .site-banner img {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .site-banner {
+top: 19%;
+    left: 51%;
+    }
+    .site-banner img {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .site-banner {
+top: 19%;
+    left: 51%;
+    }
+    .site-banner img {
+        max-width: 360px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .site-banner {
+	top: 27%;
+	left: 59%;
+    }
+    .site-banner img {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .site-banner {
+top: 27%;
+    left: 59%;
+    }
+    .site-banner img {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .site-banner {
+    top: 10%;
+    left: 51%;
+    }
+    .site-banner img {
+        max-width: 180px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .site-banner img {
+	top: 11%;
+	left: 52%;
+    }
+    .site-banner img {
+        max-width: 180px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .site-banner {
+    top: 9%;
+    left: 50%;
+    }
+
+    .site-banner img {
+        max-width: 210px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .site-banner {
+        display: none;
+    }
+}
+
 
 .intro-logo img {
     border-radius: 50%;

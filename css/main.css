@@ -181,6 +181,26 @@ h6, .h6 {
     letter-spacing: .16rem;
 }
 
+h7 {
+    font-family: "Merienda One", cursive;
+    font-size: 70px;
+    letter-spacing: 0.3rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px #000, 2px 2px 0px #000, 3px 3px 0px #000, 4px 4px 0px #000, 5px 5px 0px #000, 6px 6px 0px #000, 7px 7px 0px #000, 8px 8px 0px #000;
+    font-weight: bold;
+    display: block;
+}
+
+h8 {
+    font-family: "Merienda One", cursive;
+    font-size: 94px;
+    letter-spacing: 0.3rem;
+    color: #01dcdc;
+    text-shadow: 1px 1px 0px #fff, 2px 2px 0px #fff, 3px 3px 0px #fff, 4px 4px 0px #fff, 5px 5px 0px #fff, 6px 6px 0px #fff, 7px 7px 0px #fff, 8px 8px 0px #fff;
+    -webkit-text-stroke: 1px white;
+}
+
+
 p img {
     margin: 0;
 }
@@ -2377,7 +2397,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 600px) {
     .s-about {
-        padding-top: 12rem;
+        padding-top: 3.0rem;
     }
     .about-desc {
         font-size: 1.9rem;

@@ -139,7 +139,8 @@
                     e.preventDefault();
                     var options = {
                         index: i,
-                        showHideOpacity: true
+                        showHideOpacity: true,
+                        history: false
                     }
 
                     // initialize PhotoSwipe
@@ -165,6 +166,8 @@
             });
         });
     };
+
+
     
 
    /* Stat Counter
@@ -277,22 +280,6 @@
     };
 
     new WOW().init();
-
-    f_masonry();
-
-    $("img").lazyload({
-        effect: "fadeIn",
-        failurelimit: 40,
-        load: f_masonry,
-        });
-
-    function f_masonry() {
-        $('.masonry').masonry({
-            gutterWidth: 20,
-            itemSelector: '.item',
-            isAnimated: true,
-        });
-    }
 
 
    /* Initialize
