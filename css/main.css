@@ -1261,12 +1261,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .subhead {
-    font-family: "montserrat-bold", sans-serif;
-    font-size: 5.0rem;
+    /* font-family: "montserrat-bold", sans-serif; */
+    /* font-size: 5.0rem;*/
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #000000;
+    /* color: #000000; */
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1281,41 +1281,51 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * display headings
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
-    .display-1 {
+    .display-3 {
         font-size: 7.2rem;
     }
     .display-2 {
         font-size: 4.4rem;
     }
+
+    .subhead {
+        font-size: 5.0rem;
+    }
 }
 
 @media only screen and (max-width: 800px) {
-    .display-1 {
+    .display-3 {
         font-size: 6.5rem;
     }
     .display-2 {
         font-size: 4rem;
     }
+    .subhead {
+        font-size: 4.52rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-    .display-1 {
+    .display-3 {
         font-size: 5rem;
     }
     .display-2 {
         font-size: 3.3rem;
     }
     .subhead {
-        font-size: 1.5rem;
+        font-size: 3.48rem;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    .display-1 {
+    .display-3 {
         font-size: 4.2rem;
     }
     .display-2 {
         font-size: 3rem;
+    }
+    .subhead {
+        font-size: 2.92rem;
     }
 }
 
@@ -1326,7 +1336,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-header {
     text-align: center;
     position: relative;
-    margin-bottom: 3.6rem;
+    /* margin-bottom: 3.6rem; */
     max-width: 960px;
 }
 
@@ -2265,7 +2275,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-about {
     padding-top: 3.0rem;
-    padding-bottom: 0.1px;
+    /*padding-bottom: 0.1px;*/
     background-color: #00dcdc;
     color: #010507;
     position: relative;
@@ -2580,7 +2590,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-works .intro-wrap {
-    padding: 0rem 0 15rem;
+    padding: 3.6rem 0 15rem;
     background: #00dcdc;
 }
 
