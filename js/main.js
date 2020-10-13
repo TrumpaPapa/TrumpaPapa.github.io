@@ -1,5 +1,5 @@
 /* ===================================================================
- * Glint - Main JS
+ * Main JS
  *
  * ------------------------------------------------------------------- */
 
@@ -155,15 +155,19 @@
 
     /* Masonry
  * ---------------------------------------------------- */
-    var clMasonryFolio = function () {
+    var clMasonryFolio = function ()
+    {
 
         var containerBricks = $('.masonry');
 
-        containerBricks.imagesLoaded(function () {
+        containerBricks.imagesLoaded().progress(function ()
+        {
             containerBricks.masonry({
                 itemSelector: '.masonry__brick',
                 resize: true
             });
+
+            containerBricks.masonry('layout');
         });
     };
 
